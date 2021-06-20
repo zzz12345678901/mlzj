@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>梅兰竹菊</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/myimg/icon/Z1.svg" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- 开始项目 -->
+  <!-- 头部 放置导航 -->
+  <header>
+    <!-- 导航栏 -->
+    <!-- navbar导航条必须的样式
+        navbar-expand-lg响应式导航栏，（中等屏幕及以上屏幕导航栏铺开，否则导航栏折叠成一个按钮）
+        navbar-dark让导航条的背景与文字颜色自动高对比
+        primary-color导航条使用主色调（蓝色） -->
+    <nav class="navbar navbar-expand-md navbar-dark mynavbar-color fixed-top ">
+      <!-- container响应式布局 -->
+      <div class="container">
+        <!-- navbar-brand品牌logo -->
+        <!-- .navbar-brand为您的公司、产品或项目名称。
+            .navbar-nav用于全高轻量级导航（包括支持下拉）。
+            .navbar-toggler用于我们的折叠插件和其他导航拖拉行为。
+              用于任何形式控件和操作的灵活和间距公用设施。
+            .navbar-text用于添加垂直为中心的文本字符串。
+            .collapse.navbar-collapse用于按父断点分组和隐藏导航栏内容。 -->
+        <a class="navbar-brand" href="#">梅兰竹菊</a>
+
+        <!-- 折叠按钮 -->
+        <!-- navbar-toggler折叠导航按钮
+            data-toggle="collapse"折叠
+            data-target="#basicExampleNav"被折叠的元素的id
+            aria- 可阅读设置
+            aria-controls="#basicExampleNav"被阅读的元素的id
+            aria-expanded="false"展开状态：未展开
+            aria-label="Toggle navigation"阅读标签，即被阅读出来的内容为：Toggle navigation（切换导航） -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#MLZJNav"
+          aria-controls="MLZJNav" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- navbar-toggler-icon切换导航图标 -->
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- /折叠按钮 -->
+
+        <!-- 折叠内容 -->
+        <div class="collapse navbar-collapse" id="MLZJNav">
+          <!-- 导航链接 -->
+          <!-- navbar-nav表明是导航条中的导航链接，使得<li>的列表不会分布与多行
+              mr-auto该样式会把其后的项（即搜索框<form>靠右对齐），mr代表margin-right，即右外边距
+              active表明那个超链接当前是激活的，一般用于表明当前处于那个活动页面
+              sr-only意思是screen read only，为盲人上网设置的 -->
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html">主页
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="navbar-item">
+              <a class="nav-link" href="./MH.html">梅花</a>
+            </li>
+            <li class="navbar-item">
+              <a class="nav-link" href="./LH.html">兰花</a>
+            </li>
+            <li class="navbar-item">
+              <a class="nav-link" href="./ZZ.html">竹子</a>
+            </li>
+            <li class="navbar-item">
+              <a class="nav-link" href="./JH.html">菊花</a>
+            </li>
+            <li class="navbar-item">
+              <a class="nav-link" href="./《Web应用基础》课程结业报告.html">总结报告</a>
+            </li>
+          </ul>
+          <!-- /导航链接 -->
+
+
+        </div>
+        <!-- /折叠内容 -->
+      </div>
+
+    </nav>
+    <!-- /导航栏 -->
+
+    <!-- 遮罩 -->
+    <!-- .view是背景图片的封装器，同时是我们可以对图片进行明暗等效果的遮罩
+        .mask是一个有绝对定位的元素，它将以某种效果覆盖图片（通常我们将添加一些文字）
+        id="intro"这是.view元素的ID，我们稍后会用到
+        在css/style.css中引入图片-->
+    <div id="intro" class="view">
+
+      <div class="mask rgba-black-slight">
+        <!-- 添加了.container-fluid 容器以利用栅格进行布局 -->
+        <!-- 添加了.container-fluid 容器以利用栅格进行布局. 
+            我们使用栅格系统的构建方式一般为.container or .container-fluid > .row > column. 
+            另外我们添加了justify-content-center来保证元素水平居中.
+            根据上面的规则, 我们将四个元素(标题, 分割线, 文字, 按钮)再用两个div(分别是行和列)进行包裹.
+            在行元素.row上, 我们再次应用了弹性布局及其justify-content-center样式来保证行内的列元素水平居中. 
+            同时我们使用了text-center样式保证个元素内的文本居中. -->
+        <!-- d-flex 使得元素以 flex即弹性模式显示(相当于 CSS的display: flex;)属性.
+            align-items-center 必须与d-flex一起使用才能生效, 将使内容在其父元素中垂直居中.
+            h-100 使元素占用全部(100%)可用高度. -->
+        <div class="container-fluid d-flex align-items-center justify-content-center h-100">
+          <!-- 新添加的 div, 表示栅格中的行 -->
+          <div class="row d-flex justify-content-center text-center">
+            <!-- 新添加的 div, 表示栅格中的列 -->
+            <div class="col-md-10">
+              <!-- 标题 -->
+              <!-- display-4 一个好看的大标题. 
+                  font-weight-bold 文本加粗. 
+                  white-color 白色文本.
+                  hr-light 一条白色分割线.
+                  btn-outline-white 一个白色的透明轮廓按钮. 
+                  fa-book 一个书本样的图标(注意不是图片而是特殊字体). -->
+              <h2 class="display-4 font-weight-bold white-text pt-5 mb-2">花中四君子</h2>
+              <hr class="hr-light">
+              <h4 class="white-text my-4">梅兰竹菊被称为是花中四君子，人们通常会用它们来表达圣人们高尚的品质，四君子指的是梅花、兰花、竹子和菊花。</h4>
+
+              <!-- <button type="button" class="btn btn-outline-white">了解更多<i class="fas fa-book ml-2"></i></button> -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- /遮罩 -->
+
+
+
+  </header>
+  <!-- /头部 放置导航-->
+
+  <!-- 主体布局 -->
+  <main>
+    <!-- 梅兰竹菊 -->
+    <section id="MLZJ" class="py-5 text-center" style="background-color: #eee;">
+      <div class="container">
+        <h2 class="h1-responsive font-weight-bold  mb-5">梅兰竹菊</h2>
+        <p class="lead w-responsive mx-auto mb-5">梅：探波傲雪，剪雪裁冰，一身傲骨，是为高洁志士；</p>
+        <p class="lead w-responsive mx-auto mb-5">兰：空谷幽放，孤芳自赏，香雅怡情，是为世上贤达；</p>
+        <p class="lead w-responsive mx-auto mb-5">竹：筛风弄月，潇洒一生，清雅澹泊，是为谦谦君子；</p>
+        <p class="lead w-responsive mx-auto mb-5">菊：凌霜飘逸，特立独行，不趋炎势，是为世外隐士。</p>
+
+      </div>
+
+    </section>
+    <!-- /梅兰竹菊 -->
+
+    <!-- 梅花 -->
+    <section id="MeiHua" class="py-5 text-center" style="background-color: rgba(230, 141, 141, 0.400);">
+      <div class="container">
+        <div class="row d-flex justify-content-center mb-4">
+          <div class="col-md-8">
+            <h2 class="font-weight-bold">梅花</h2>
+            <p>梅花代表的寓意是高洁的志士</p>
+            <p>梅：探波傲雪，剪雪裁冰，一身傲骨，是为高洁志士</p>
+            <p>墙角数枝梅，凌寒独自开。遥知不是雪，为有暗香来。——王安石《梅花》</p>
+            <p>别名：春梅、干枝梅、红绿梅、红梅、绿梅等。</p>
+            <p>花中“四君子”之首</p>
+            <p>“岁寒三友”之一</p>
+            <p>坚强、高洁、谦虚</p>
+            <p>花中寿星</p>
+            <p>“四德“、“五福”</p>
+            <p>梅花的五个花瓣代表着吉祥，为福、禄、寿、禧、财，五个吉祥神</p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <!-- <div class="col-md-8" id="groupM"> -->
+      <div class="groupM">
+        <img src="img/myimg/MH/M4.jpg">
+        <!-- <img src="img/myimg/MH/M6.webp"> -->
+      </div>
+
+
+
+    </section>
+    <!-- /梅花 -->
+
+    <!-- <br class="my-5"> -->
+
+    <!-- 兰花 -->
+    <section id="LanHua" class="py-5 text-center" style="background-color: rgba(189, 101, 160, 0.400);">
+      <h2 class="font-weight-bold">兰花</h2>
+      <p class="text-">兰花代表的是贤达之士，代表着不争于世的性格</p>
+      <p>兰：空谷幽放，孤芳自赏，香雅怡情，是为世上贤达；</p>
+      <p>孤兰生幽园，众草共芜没。虽照阳春晖，复悲高秋月。飞霜早淅沥，绿艳恐休歇。若无清风吹，香气为谁发。——李白《古风》</p>
+      <p>兰花的花语：美好、高洁、贤德。</p>
+      <p>外国的兰花花语为：热烈、友谊、自信、自傲</p>
+      <p>兰花有好多种，其中：
+        紫罗兰 ：永续的美
+        小苍兰 ：纯真、无邪
+        嘉德利亚兰 ：贵妇人
+        蝴蝶兰 ：幸福逐渐到来
+        文心兰 ：隐藏的爱
+        剑兰 ：高雅、长寿、康宁</p>
+      <div class="groupL">
+        <img src="img/myimg/LH/L1.jpg">
+      </div>
+
+    </section>
+    <!-- /兰花 -->
+
+    <!-- <br class="my-5"> -->
+
+    <!-- 竹子 -->
+    <section id="ZhuZi" class="py-5 text-center" style="background-color: rgba(38, 253, 10, 0.400);">
+      <h2 class="font-weight-bold">竹子</h2>
+      <p>竹代表的是谦谦君子，有着不屈不挠的性格</p>
+      <p>竹：筛风弄月，潇洒一生，清雅澹泊，是为谦谦君子；</p>
+      <!--rgba(144, 228, 118, 0.400)-->
+      <p>咬定青山不放松， 立根原在破岩中。 千磨万击还坚劲，任尔东西南北风。——郑燮《竹石》.</p>
+      <p>四君子</p>
+      <p>岁寒三友</p>
+      <p>挺拔劲节，清翠欲滴，婆娑可爱</p>
+      <p>既有梅凌寒傲雪的铁骨，又有兰翠色长存的高洁</p>
+      <p>劲节”、“虚空”、“萧疏”</p>
+      <p>它的“劲节”，代表不屈的骨节/骨气；它的“虚空”，代表谦逊的胸怀，它的“萧疏”，代表诗人超群脱俗 。</p>
+      <div class="groupZ">
+        <img src="img/myimg/ZZ/Z1.jpg">
+      </div>
+
+    </section>
+    <!-- /竹子 -->
+
+    <!-- <br class="my-5"> -->
+
+    <!-- 菊花 -->
+    <section id="JuHua" class="py-5 text-center" style="background-color: rgba(212, 199, 16, 0.4);">
+      <h2 class="font-weight-bold">菊花</h2>
+      <p>菊花则代表的是世外的隐士</p>
+      <p>菊：凌霜飘逸，特立独行，不趋炎势，是为世外隐士。</p>
+      <p>暗暗淡淡紫，融融冶冶黄。陶令篱边色，罗含宅里香。几时禁重露，实是怯残阳。愿泛金鹦鹉，升君白玉堂。——李商隐《菊花》.</p>
+      <p>别名：菊华、秋菊、九华、黄花、帝女花、笑靥金、节花。</p>
+      <p>“晚艳”、“冷香”之雅称</p>
+      <p>秋菊才兼有烈士与高士的两种品格</p>
+      <p>不畏严霜，不辞寂寞，无论出处进退</p>
+      <p>君子自得自乐、儒道双修的精神象证</p>
+      <div class="groupJ">
+        <img src="img/myimg/JH/J2.jpg">
+      </div>
+
+    </section>
+    <!-- /菊花 -->
+
+    <!-- <pre>
+  <h5>梅花代表的寓意是高洁的志士；</h5>
+  <h5>兰花代表的是贤达之士，代表着不争于世的性格；</h5>
+  <h5>竹代表的是谦谦君子，有着不屈不挠的性格；</h5>
+  <h5>菊花则代表的是世外的隐士。</h5>
+
+
+</pre> -->
+
+
+
+
+
+
+
+
+
+  </main>
+  <!-- /主体布局 -->
+
+  <!-- 底部 -->
+  <footer class="page-footer font-small footer-color pt-4 mt-4">
+
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
+
+        <!-- Grid row -->
+        <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-md-6 mt-md-0 mt-3">
+
+                <!-- Content -->
+                <h5 class="text-uppercase">说一说</h5>
+                <p>希望本站内容对您产生帮助</p>
+                <p>欢迎各位对本站内容进行修正和补充</p>
+
+            </div>
+            <!-- Grid column -->
+
+            <hr class="clearfix w-100 d-md-none pb-3">
+
+            <!-- Grid column -->
+            <div class="col-md-3 mb-md-0 mb-3">
+
+                <!-- Links -->
+                <h5 class="text-uppercase">链接</h5>
+
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="./MH.html">梅花</a>
+                    </li>
+                    <li>
+                        <a href="./LH.html">兰花</a>
+                    </li>
+                    <li>
+                        <a href="./ZZ.html">竹子</a>
+                    </li>
+                    <li>
+                        <a href="./JH.html">菊花</a>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 mb-md-0 mb-3">
+
+                <!-- Links -->
+                <h5 class="text-uppercase">链接</h5>
+
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="./index.html">首页</a>
+                    </li>
+                    <li>
+                        <a href="./《Web应用基础》课程结业报告.html">总结报告</a>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2021 Copyright:
+        <a href="#">重庆交通大学信息科学与工程学院 计科2019级</a>
+    </div>
+    <!-- Copyright -->
+
+</footer>
+  <!-- /底部 -->
+  <!-- 结束项目 -->
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript"></script>
+
+</body>
+
+</html>

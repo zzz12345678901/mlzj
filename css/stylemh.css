@@ -1,0 +1,26 @@
+html,
+body{
+background: #d199202a;
+}
+.mynavbar-color{
+    background: #d1992067;
+}
+.DaoHang{
+    background-color:rgba(128, 128, 128, 0.26);
+    width: 200px;
+    position: fixed;
+    top: 80px;
+    /* visibility:hidden; */
+}
+
+.DH-item{
+    height: 50px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-bottom: 2px;
+    background-color: #d1992067;
+    text-align: center;
+}
+.footer-color{
+    background-color:#d1992067
+}

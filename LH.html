@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>兰花</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/myimg/icon/Z1.svg" type="image/x-icon">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <!-- Your custom styles (optional) -->
+    <link rel="stylesheet" href="css/stylelh.css">
+</head>
+
+<body class="container">
+
+    <!-- 开始项目 -->
+    <!-- 头部 放置导航 -->
+    <header>
+        <!-- 导航栏 -->
+        <!-- navbar导航条必须的样式
+        navbar-expand-lg响应式导航栏，（中等屏幕及以上屏幕导航栏铺开，否则导航栏折叠成一个按钮）
+        navbar-dark让导航条的背景与文字颜色自动高对比
+        primary-color导航条使用主色调（蓝色） -->
+        <nav class="navbar navbar-expand-md navbar-dark mynavbar-color fixed-top ">
+            <!-- container响应式布局 -->
+            <div class="container">
+                <!-- navbar-brand品牌logo -->
+                <!-- .navbar-brand为您的公司、产品或项目名称。
+            .navbar-nav用于全高轻量级导航（包括支持下拉）。
+            .navbar-toggler用于我们的折叠插件和其他导航拖拉行为。
+              用于任何形式控件和操作的灵活和间距公用设施。
+            .navbar-text用于添加垂直为中心的文本字符串。
+            .collapse.navbar-collapse用于按父断点分组和隐藏导航栏内容。 -->
+                <a class="navbar-brand" href="#">梅兰竹菊</a>
+
+                <!-- 折叠按钮 -->
+                <!-- navbar-toggler折叠导航按钮
+            data-toggle="collapse"折叠
+            data-target="#basicExampleNav"被折叠的元素的id
+            aria- 可阅读设置
+            aria-controls="#basicExampleNav"被阅读的元素的id
+            aria-expanded="false"展开状态：未展开
+            aria-label="Toggle navigation"阅读标签，即被阅读出来的内容为：Toggle navigation（切换导航） -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#MLZJNav"
+                    aria-controls="MLZJNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- navbar-toggler-icon切换导航图标 -->
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- /折叠按钮 -->
+
+                <!-- 折叠内容 -->
+                <div class="collapse navbar-collapse" id="MLZJNav">
+                    <!-- 导航链接 -->
+                    <!-- navbar-nav表明是导航条中的导航链接，使得<li>的列表不会分布与多行
+              mr-auto该样式会把其后的项（即搜索框<form>靠右对齐），mr代表margin-right，即右外边距
+              active表明那个超链接当前是激活的，一般用于表明当前处于那个活动页面
+              sr-only意思是screen read only，为盲人上网设置的 -->
+                    <ul class="navbar-nav mr-auto">
+                        <li class="navbar-item">
+                            <a class="nav-link" href="./index.html">主页</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="nav-link" href="./MH.html">梅花</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./LH.html">兰花</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="nav-link" href="./ZZ.html">竹子</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="nav-link" href="./JH.html">菊花</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="nav-link" href="./《Web应用基础》课程结业报告.html">总结报告</a>
+                          </li>
+                    </ul>
+
+                </div>
+                <!-- /折叠内容 -->
+            </div>
+
+        </nav>
+        <!-- /导航栏 -->
+
+
+
+
+
+    </header>
+    <!-- /头部 放置导航-->
+
+    <!-- 主体布局 -->
+    <main>
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-2 ">
+                    <div class="main_left">
+                        <div class="DaoHang" id="DaoHang">
+                            <ul class="" style="list-style-type: none;">
+                                <li class="active DH-item">
+                                    <a href="#LHJJ">1兰花简介</a>
+                                </li>
+                                <li class="DH-item">
+                                    <a href="#LHPZ">2兰花品种</a>
+                                </li>
+                                <li class="DH-item">
+                                    <a href="#FBFW">3分布范围</a>
+                                </li>
+                                <li class="DH-item">
+                                    <a href="#ZYJZ">4主要价值</a>
+                                </li>
+                                <li class="DH-item">
+                                    <a href="#ZWWH">5植物文化</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-10">
+                    <div class="main_right">
+
+                        <div class="ZT" id="ZT">
+
+                            <section id="LHJJ" class="" style="background-color: #d1992067;">
+
+                                <div class=" container">
+
+                                    <div class="row py-5">
+
+                                        <div class="col-md-4 mb-4">
+                                            <div class="LHpicture  view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/LH/L2.jpg" alt="LH"
+                                                    width="300px" height="400px">
+                                                <div class="mask rgba-white-light"></div>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8 mb-4">
+
+                                            <h3>兰花<span>（中国十大名花之一）</span></h3>
+                                            <p>兰花（学名：Cymbidium
+                                                ssp.）：是单子叶植物纲、兰科、兰属植物通称。附生或地生草本，叶数枚至多枚，通常生于假鳞茎基部或下部节上，二列，带状或罕有倒披针形至狭椭圆形，基部一般有宽阔的鞘并围抱假鳞茎，有关节。总状花序具数花或多花，颜色有白、纯白、白绿、黄绿、淡黄、淡黄褐、黄、红、青、紫。
+                                            </p>
+                                            <p>中国传统名花中的兰花仅指分布在中国兰属植物中的若干种地生兰，如春兰、惠兰、建兰、墨兰和寒兰等，即通常所指的“中国兰”。这一类兰花与花大色艳的热带兰花大不相同，没有醒目的艳态，没有硕大的花、叶，却具有质朴文静、淡雅高洁的气质，很符合东方人的审美标准。在中国有一千余年的栽培历史。
+                                            </p>
+                                            <p>中国人历来把兰花看做是高洁典雅的象征，并与“梅、竹、菊”并列，合称“四君子”。通常以“兰章”喻诗文之美，以“兰交”喻友谊之真。也有借兰来表达纯洁的爱情，“气如兰兮长不改，心若兰兮终不移”、“寻得幽兰报知己，一枝聊赠梦潇湘”。1985年5月兰花被评为中国十大名花之四
+                                            </p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </section>
+
+                            <section id="LHPZ" class="text-center py-5">
+
+                                <div class=" container">
+
+                                    <h3>兰花品种</h3>
+
+                                    <div class="row py-5 text-center">
+
+                                        <div class="col-md-4 mb-4">
+                                            <div class="WBL  view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/LH/WBL.jpg " alt="WBL"
+                                                    width="300px" height="400px">
+                                                <a>
+                                                    <div class="mask rgba-white-light"></div>
+                                                </a>
+
+                                                <div class="card-body pb-2">
+                                                    <h4 class="font-weight-bold my-3">纹瓣兰</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-4">
+                                            <div class="YYL  view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/LH/YYL.jpg " alt="YYL"
+                                                    width="300px" height="400px">
+                                                <a>
+                                                    <div class="mask rgba-white-light"></div>
+                                                </a>
+
+                                                <div class="card-body pb-2">
+                                                    <h4 class="font-weight-bold my-3">硬叶兰</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-4">
+                                            <div class="CHL view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/LH/CHL.jpg " alt="CHL"
+                                                    width="300px" height="400px">
+                                                <a>
+                                                    <div class="mask rgba-white-light"></div>
+                                                </a>
+
+                                                <div class="card-body pb-2">
+                                                    <h4 class="font-weight-bold my-3">垂花兰</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="row py-5 text-center">
+
+                                        <div class="col-md-4 mb-4">
+                                            <div class="SYL  view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/LH/SYL.jpg " alt="SYL"
+                                                    width="300px" height="400px">
+                                                <a>
+                                                    <div class="mask rgba-white-light"></div>
+                                                </a>
+
+                                                <div class="card-body pb-2">
+                                                    <h4 class="font-weight-bold my-3">莎叶兰</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-4">
+                                            <div class="DFL view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/LH/DFL.jpg " alt="DFL"
+                                                    width="300px" height="400px">
+                                                <a>
+                                                    <div class="mask rgba-white-light"></div>
+                                                </a>
+
+                                                <div class="card-body pb-2">
+                                                    <h4 class="font-weight-bold my-3">冬凤兰</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-4">
+                                            <div class="LYL view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/LH/LYL.jpg " alt="LYL"
+                                                    width="300px" height="400px">
+                                                <a>
+                                                    <div class="mask rgba-white-light"></div>
+                                                </a>
+
+                                                <div class="card-body pb-2">
+                                                    <h4 class="font-weight-bold my-3">落叶兰</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="row py-5 text-center">
+
+                                        <div class="col-md-4 mb-4">
+                                            <div class="DZC  view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/LH/DZC.jpg " alt="DZC"
+                                                    width="300px" height="400px">
+                                                <a>
+                                                    <div class="mask rgba-white-light"></div>
+                                                </a>
+
+                                                <div class="card-body pb-2">
+                                                    <h4 class="font-weight-bold my-3">独占春</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-4">
+                                            <div class="SCL  view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/LH/SCL.jpg " alt="SCL"
+                                                    width="300px" height="400px">
+                                                <a>
+                                                    <div class="mask rgba-white-light"></div>
+                                                </a>
+
+                                                <div class="card-body pb-2">
+                                                    <h4 class="font-weight-bold my-3">莎草兰</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-4">
+                                            <div class="JL view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/LH/JL.jpg " alt="JL"
+                                                    width="300px" height="400px">
+                                                <a>
+                                                    <div class="mask rgba-white-light"></div>
+                                                </a>
+
+                                                <div class="card-body pb-2">
+                                                    <h4 class="font-weight-bold my-3">建兰</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="row py-5 text-center">
+
+                                        <div class="col-md-4 mb-4">
+                                            <div class="CYL  view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/LH/CYL.jpg " alt="CYL"
+                                                    width="300px" height="400px">
+                                                <a>
+                                                    <div class="mask rgba-white-light"></div>
+                                                </a>
+
+                                                <div class="card-body pb-2">
+                                                    <h4 class="font-weight-bold my-3">长叶兰</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-4">
+                                            <div class="HL  view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/LH/HL.jpg " alt="HL"
+                                                    width="300px" height="400px">
+                                                <a>
+                                                    <div class="mask rgba-white-light"></div>
+                                                </a>
+
+                                                <div class="card-body pb-2">
+                                                    <h4 class="font-weight-bold my-3">蕙兰</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-4">
+                                            <div class="DHL view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/LH/DHL.jpg " alt="DHL"
+                                                    width="300px" height="400px">
+                                                <a>
+                                                    <div class="mask rgba-white-light"></div>
+                                                </a>
+
+                                                <div class="card-body pb-2">
+                                                    <h4 class="font-weight-bold my-3">多花兰</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="row py-5 text-center">
+
+                                        <div class="col-md-4 mb-4">
+                                            <div class="CL  view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/LH/CL.jpg " alt="CL"
+                                                    width="300px" height="400px">
+                                                <a>
+                                                    <div class="mask rgba-white-light"></div>
+                                                </a>
+
+                                                <div class="card-body pb-2">
+                                                    <h4 class="font-weight-bold my-3">春兰</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-4">
+                                            <div class="HTL  view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/LH/HTL.jpg " alt="HTL"
+                                                    width="300px" height="400px">
+                                                <a>
+                                                    <div class="mask rgba-white-light"></div>
+                                                </a>
+
+                                                <div class="card-body pb-2">
+                                                    <h4 class="font-weight-bold my-3">虎头兰</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-4">
+                                            <div class="MHL view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/LH/MHL.jpg " alt="MHL"
+                                                    width="300px" height="400px">
+                                                <a>
+                                                    <div class="mask rgba-white-light"></div>
+                                                </a>
+
+                                                <div class="card-body pb-2">
+                                                    <h4 class="font-weight-bold my-3">美花兰</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="row py-5 text-center">
+
+                                        <div class="col-md-4 mb-4">
+                                            <div class="HCL  view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/LH/HCL.jpg " alt="HCL"
+                                                    width="300px" height="400px">
+                                                <a>
+                                                    <div class="mask rgba-white-light"></div>
+                                                </a>
+
+                                                <div class="card-body pb-2">
+                                                    <h4 class="font-weight-bold my-3">黄蝉兰</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-4">
+                                            <div class="HanL  view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/LH/HanL.jpg " alt="HanL"
+                                                    width="300px" height="400px">
+                                                <a>
+                                                    <div class="mask rgba-white-light"></div>
+                                                </a>
+
+                                                <div class="card-body pb-2">
+                                                    <h4 class="font-weight-bold my-3">寒兰</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-4">
+                                            <div class="TEL view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/LH/TEL.jpg " alt="TEL"
+                                                    width="300px" height="400px">
+                                                <a>
+                                                    <div class="mask rgba-white-light"></div>
+                                                </a>
+
+                                                <div class="card-body pb-2">
+                                                    <h4 class="font-weight-bold my-3">兔耳兰</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="row py-5 text-center">
+
+                                        <div class="col-md-4 mb-4">
+                                            <div class="BYL  view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/LH/BYL.jpg " alt="BYL"
+                                                    width="300px" height="400px">
+                                                <a>
+                                                    <div class="mask rgba-white-light"></div>
+                                                </a>
+
+                                                <div class="card-body pb-2">
+                                                    <h4 class="font-weight-bold my-3">碧玉兰</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-4">
+                                            <div class="DGL  view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/LH/DGL.jpg " alt="DGL"
+                                                    width="300px" height="400px">
+                                                <a>
+                                                    <div class="mask rgba-white-light"></div>
+                                                </a>
+
+                                                <div class="card-body pb-2">
+                                                    <h4 class="font-weight-bold my-3">大根兰</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-4">
+                                            <div class="DXL view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/LH/DXL.jpg " alt="DXL"
+                                                    width="300px" height="400px">
+                                                <a>
+                                                    <div class="mask rgba-white-light"></div>
+                                                </a>
+
+                                                <div class="card-body pb-2">
+                                                    <h4 class="font-weight-bold my-3">大雪兰</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="row py-5 text-center">
+
+                                        <div class="col-md-4 mb-4">
+                                            <div class="ZZA  view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/LH/ZZA.jpg " alt="ZZA"
+                                                    width="300px" height="400px">
+                                                <a>
+                                                    <div class="mask rgba-white-light"></div>
+                                                </a>
+
+                                                <div class="card-body pb-2">
+                                                    <h4 class="font-weight-bold my-3">珍珠矮</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-4">
+                                            <div class="QBDHL  view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/LH/QBDHL.jpg " alt="QBDHL"
+                                                    width="300px" height="400px">
+                                                <a>
+                                                    <div class="mask rgba-white-light"></div>
+                                                </a>
+
+                                                <div class="card-body pb-2">
+                                                    <h4 class="font-weight-bold my-3">邱北冬蕙兰</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-4">
+                                            <div class="ML view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/LH/ML.jpg " alt="ML"
+                                                    width="300px" height="400px">
+                                                <a>
+                                                    <div class="mask rgba-white-light"></div>
+                                                </a>
+
+                                                <div class="card-body pb-2">
+                                                    <h4 class="font-weight-bold my-3">墨兰</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="row py-5 text-center">
+
+                                        <div class="col-md-4 mb-4">
+                                            <div class="GXL  view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/LH/GXL.jpg " alt="GXL"
+                                                    width="300px" height="400px">
+                                                <a>
+                                                    <div class="mask rgba-white-light"></div>
+                                                </a>
+
+                                                <div class="card-body pb-2">
+                                                    <h4 class="font-weight-bold my-3">果香兰</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-4">
+                                            <div class="BSL  view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/LH/BSL.jpg " alt="BSL"
+                                                    width="300px" height="400px">
+                                                <a>
+                                                    <div class="mask rgba-white-light"></div>
+                                                </a>
+
+                                                <div class="card-body pb-2">
+                                                    <h4 class="font-weight-bold my-3">斑舌兰</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-4">
+                                            <div class="XZHTL view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/LH/XZHTL.jpg " alt="XZHTL"
+                                                    width="300px" height="400px">
+                                                <a>
+                                                    <div class="mask rgba-white-light"></div>
+                                                </a>
+
+                                                <div class="card-body pb-2">
+                                                    <h4 class="font-weight-bold my-3">西藏虎头兰</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="row py-5 text-center">
+
+                                        <div class="col-md-4 mb-4">
+                                            <div class="WSHZL  view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/LH/WSHZL.jpg " alt="WSHZL"
+                                                    width="300px" height="400px">
+                                                <a>
+                                                    <div class="mask rgba-white-light"></div>
+                                                </a>
+
+                                                <div class="card-body pb-2">
+                                                    <h4 class="font-weight-bold my-3">文山红柱兰</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-4">
+                                            <div class="DNHTL  view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/LH/DNHTL.jpg " alt="DNHTL"
+                                                    width="300px" height="400px">
+                                                <a>
+                                                    <div class="mask rgba-white-light"></div>
+                                                </a>
+
+                                                <div class="card-body pb-2">
+                                                    <h4 class="font-weight-bold my-3">滇南虎头兰</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+                            </section>
+
+                            <section id="FBFW" class="text-center py-5" style="background-color: #d1992067;">
+                                <div class="container">
+
+                                    <h3>分布范围</h3>
+                                    <p>中国地域辽阔，生态环境复杂，植被类型多，<br>因而兰花资源非常丰富，全国都有分布，<br>但从数量分布上从南到北依次递减。<br>兰花在中国分布种类最多的是云南、四川和台湾省。
+                                    </p>
+                                    <p>中国除了华北、东北、和西北的宁夏、青海、新疆之外，各个省区都有不同种类的兰属植物。<br>一般来说，地生兰多生于温带和亚热带地区，如江苏、安徽、河南等；<br>附生兰多生于热带、亚热带地区，如广东、福建、台湾等。
+                                    </p>
+
+                                </div>
+                            </section>
+
+                            <section id="ZYJZ" class=" py-5">
+
+                                <div class="container">
+
+                                    <div class="text-center">
+                                        <h3>主要价值</h3>
+                                    </div>
+
+                                    <div class="row py-5 text-center">
+                                        <div class="col-md-4 mb-4">
+
+                                            <div class="LHpicture3  view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/LH/L3.jpg" alt="LH"
+                                                    width="300px" height="400px">
+                                                <div class="mask rgba-white-light"></div>
+
+                                            </div>
+                                            <div class="JL  view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/LH/JL.jpg" alt="LH"
+                                                    width="300px" height="400px">
+                                                <div class="mask rgba-white-light"></div>
+
+                                            </div>
+                                            <div class="HL  view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/LH/HL.jpg" alt="LH"
+                                                    width="300px" height="400px">
+                                                <div class="mask rgba-white-light"></div>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-8 mb-4 text-left">
+
+                                            <h4>观赏</h4>
+                                            <p>兰花是一种风格独异的花卉，它的观赏价值很高。兰花的花色淡雅，其中以嫩绿、黄绿的居多，但尤以素心者为名贵。兰花的香气，清而不浊，一盆在室，芳香四溢。“手培兰蕊两三栽，日暖风和次第开；坐久不知香在室，推窗时有蝶飞来。”古人这首诗将兰花的幽香表现得淋漓尽致。兰花的花姿有的端庄隽秀，有的雍容华贵，富于变化。兰花的叶终年鲜绿，刚柔兼备，姿态优美，即使不是花期，也像是一件活的艺术品。“泣露光偏乱，含风影自斜；俗人那斛比，看叶胜看花”。这首诗就是用来形容兰叶婀娜多姿之美。
+                                            </p>
+                                            <p>置几盆兰花，点缀室内，顿觉生意盎然，花开之日，清香阵阵，会使你感到生机勃勃，心旷神怡。</p>
+                                            <h4>食用</h4>
+                                            <p>兰花香气清洌、醇正，兰花多用于茶，也可用来熏茶；还可做汤等菜肴。</p>
+                                            <h4>药用</h4>
+                                            <p>据记载，兰花全草均可入药。其性平，味辛、甘、无毒。有养阴润肺，利水渗湿，清热解毒等功效。可应用于临床内、妇科诸症。根可治肺结核、肺脓肿及扭伤，也可接骨；兰花花梗可治恶癣。
+                                            </p>
+                                            <p>建兰根煎汤服，据说为催生胜药，叶治百日咳、可治虚人肺气（一作肝气），果能止呕吐，种子治目翳。蕙兰全草能治妇女病；春兰全草治神经衰弱、蛔虫和痔疮等病。素心兰花瓣可以催生。蕙兰的素心花瓣阴干亦能催生。
+                                            </p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </section>
+
+                            <section id="ZWWH" class="py-5" style="background-color: #d1992067;">
+
+                                <div class="container">
+                                    <div class="text-center">
+                                        <h3>植物文化</h3>
+                                    </div>
+
+                                    <div class="row py-5 text-center">
+                                        <div class="col-md-3 mb-1">
+                                            <i class="fas fa-camera-retro"></i>
+                                            <h4 class="my-4">市花</h4>
+                                            <p>1987年在全国十大名花评选中，兰花仅次于梅花、牡丹、菊花，名列第四。</p>
+                                            <p>兰花被中国的河北省保定市、福建省龙岩市、台湾省宜兰市、贵州省贵阳市、云南省保山市、广东省韶关市、广东省汕头选定为市花。</p>
+                                        </div>
+
+                                        <div class="col-md-3 mb-1">
+                                            <i class="fas fa-camera-retro"></i>
+                                            <h4 class="my-4">诗文</h4>
+                                            <p>《周易》：同心之言，其嗅加兰 。</p>
+                                            <p>唐 李白：幽兰香风远，蕙草流芳根</p>
+                                            <p>梁宣帝《兰诗》：开花不竞节，含秀委微霜。</p>
+                                        </div>
+
+                                        <div class="col-md-3 mb-1">
+                                            <i class="fas fa-camera-retro"></i>
+                                            <h4 class="my-4">邮票</h4>
+                                            <p>1988年12月25号。中国邮电部发行了一套“中国兰花”特种邮票。志号：T 129。全套4枚连印。邮票画面都以画配诗形式，清幽淡雅。</p>
+                                        </div>
+
+                                        <div class="col-md-3 mb-1">
+                                            <i class="fas fa-camera-retro"></i>
+                                            <h4 class="my-4">花语</h4>
+                                            <p>兰花一般形容人君子，常形容女人空谷幽兰。</p>
+                                            <p>文心兰：隐藏的爱</p>
+                                            <p>剑兰：高雅、长寿、康宁</p>
+                                            <p>兰花的花语：淡泊、高雅，美好、高洁、贤德。</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </section>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </main>
+    <!-- /主体布局 -->
+
+    <!-- Footer -->
+    <footer class="page-footer font-small footer-color pt-4 mt-4">
+
+        <!-- Footer Links -->
+        <div class="container-fluid text-center text-md-left">
+
+            <!-- Grid row -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-6 mt-md-0 mt-3">
+
+                    <!-- Content -->
+                    <h5 class="text-uppercase">说一说</h5>
+                    <p>希望本站内容对您产生帮助</p>
+                    <p>欢迎各位对本站内容进行修正和补充</p>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none pb-3">
+
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3">
+
+                    <!-- Links -->
+                    <h5 class="text-uppercase">链接</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="./MH.html">梅花</a>
+                        </li>
+                        <li>
+                            <a href="./LH.html">兰花</a>
+                        </li>
+                        <li>
+                            <a href="./ZZ.html">竹子</a>
+                        </li>
+                        <li>
+                            <a href="./JH.html">菊花</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3">
+
+                    <!-- Links -->
+                    <h5 class="text-uppercase">链接</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="./index.html">首页</a>
+                        </li>
+                        <li>
+                            <a href="./《Web应用基础》课程结业报告.html">总结报告</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2021 Copyright:
+            <a href="#">重庆交通大学信息科学与工程学院 计科2019级</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- /底部 -->
+    <!-- 结束项目 -->
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Your custom scripts (optional) -->
+    <script type="text/javascript"></script>
+</body>
+
+</html>

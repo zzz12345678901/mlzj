@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>菊花</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/myimg/icon/Z1.svg" type="image/x-icon">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <!-- Your custom styles (optional) -->
+    <link rel="stylesheet" href="css/stylelh.css">
+</head>
+
+<body class="container">
+
+    <!-- 开始项目 -->
+    <!-- 头部 放置导航 -->
+    <header>
+        <!-- 导航栏 -->
+        <!-- navbar导航条必须的样式
+        navbar-expand-lg响应式导航栏，（中等屏幕及以上屏幕导航栏铺开，否则导航栏折叠成一个按钮）
+        navbar-dark让导航条的背景与文字颜色自动高对比
+        primary-color导航条使用主色调（蓝色） -->
+        <nav class="navbar navbar-expand-md navbar-dark mynavbar-color fixed-top ">
+            <!-- container响应式布局 -->
+            <div class="container">
+                <!-- navbar-brand品牌logo -->
+                <!-- .navbar-brand为您的公司、产品或项目名称。
+            .navbar-nav用于全高轻量级导航（包括支持下拉）。
+            .navbar-toggler用于我们的折叠插件和其他导航拖拉行为。
+              用于任何形式控件和操作的灵活和间距公用设施。
+            .navbar-text用于添加垂直为中心的文本字符串。
+            .collapse.navbar-collapse用于按父断点分组和隐藏导航栏内容。 -->
+                <a class="navbar-brand" href="#">梅兰竹菊</a>
+
+                <!-- 折叠按钮 -->
+                <!-- navbar-toggler折叠导航按钮
+            data-toggle="collapse"折叠
+            data-target="#basicExampleNav"被折叠的元素的id
+            aria- 可阅读设置
+            aria-controls="#basicExampleNav"被阅读的元素的id
+            aria-expanded="false"展开状态：未展开
+            aria-label="Toggle navigation"阅读标签，即被阅读出来的内容为：Toggle navigation（切换导航） -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#MLZJNav"
+                    aria-controls="MLZJNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- navbar-toggler-icon切换导航图标 -->
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- /折叠按钮 -->
+
+                <!-- 折叠内容 -->
+                <div class="collapse navbar-collapse" id="MLZJNav">
+                    <!-- 导航链接 -->
+                    <!-- navbar-nav表明是导航条中的导航链接，使得<li>的列表不会分布与多行
+              mr-auto该样式会把其后的项（即搜索框<form>靠右对齐），mr代表margin-right，即右外边距
+              active表明那个超链接当前是激活的，一般用于表明当前处于那个活动页面
+              sr-only意思是screen read only，为盲人上网设置的 -->
+                    <ul class="navbar-nav mr-auto">
+                        <li class="navbar-item">
+                            <a class="nav-link" href="./index.html">主页</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="nav-link" href="./MH.html">梅花</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="nav-link" href="./LH.html">兰花</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="nav-link" href="./ZZ.html">竹子</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./JH.html">菊花</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="nav-link" href="./《Web应用基础》课程结业报告.html">总结报告</a>
+                          </li>
+                    </ul>
+                    <!-- /导航链接 -->
+
+
+                </div>
+                <!-- /折叠内容 -->
+            </div>
+
+        </nav>
+        <!-- /导航栏 -->
+
+
+
+
+
+    </header>
+    <!-- /头部 放置导航-->
+
+    <!-- 主体布局 -->
+    <main>
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-2 ">
+                    <div class="main_left">
+                        <div class="DaoHang" id="DaoHang">
+                            <ul class="" style="list-style-type: none;">
+                                <li class="active DH-item">
+                                    <a href="#JHJJ">1菊花简介</a>
+                                </li>
+                                <li class="DH-item">
+                                    <a href="#JHPZ">2菊花品种</a>
+                                </li>
+                                <li class="DH-item">
+                                    <a href="#FBFW">3分布范围</a>
+                                </li>
+                                <li class="DH-item">
+                                    <a href="#ZYJZ">4主要价值</a>
+                                </li>
+                                <li class="DH-item">
+                                    <a href="#ZWWH">5植物文化</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-10">
+                    <div class="main_right">
+
+                        <div class="ZT" id="ZT">
+
+                            <section id="JHJJ" class="" style="background-color: #d1992067;">
+
+                                <div class=" container">
+
+                                    <div class="row py-5">
+
+                                        <div class="col-md-4 mb-4">
+                                            <div class="JHpicture  view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/JH/J01.jpg" alt="JH"
+                                                    width="300px" height="400px">
+                                                <div class="mask rgba-white-light"></div>
+
+                                            </div>
+                                            <div class="JHpicture  view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/JH/J02.jpg" alt="JH"
+                                                    width="300px" height="400px">
+                                                <div class="mask rgba-white-light"></div>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8 mb-4">
+
+                                            <h3>菊花<span>（菊科菊属宿根草本植物）</span></h3>
+                                            <P>菊花（学名：Dendranthema morifolium (Ramat.)
+                                                Tzvelev）：在植物分类学中是菊科、菊属的多年生宿根草本植物。按栽培形式分为多头菊、独本菊、大丽菊、悬崖菊、艺菊、案头菊等栽培类型；有按花瓣的外观形态分为园抱、退抱、反抱、乱抱、露心抱、飞午抱等栽培类型。不同类型里的菊花又命名各种各样的品种名称。
+                                            </P>
+                                            <p>菊花是中国十大名花之一，花中四君子（梅兰竹菊）之一，也是世界四大切花（菊花、月季、康乃馨、唐菖蒲）之一，产量居首。因菊花具有清寒傲雪的品格，才有陶渊明的“采菊东篱下，悠然见南山”的名句。中国人有重阳节赏菊和饮菊花酒的习俗。唐·孟浩然《过故人庄》：“待到重阳日，还来就菊花。”在古神话传说中菊花还被赋予了吉祥、长寿的含义。
+                                            </p>
+                                            <p>菊花是经长期人工选择培育的名贵观赏花卉，公元八世纪前后，作为观赏的菊花由中国传至日本。17世纪末叶荷兰商人将中国菊花引入欧洲，18世纪传入法国，19世纪中期引入北美。此后中国菊花遍及全球。
+                                            </p>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </section>
+
+                            <section id="JHPZ" class="text-center py-5" style="background-color:peru ;">
+
+                                <div class=" container">
+
+                                    <h3>菊花品种</h3>
+
+
+
+                                    <table class="table table-bordered">
+                                        <caption>菊花品种</caption>
+                                        <thead>
+                                            <tr>
+                                                <th>序号</th>
+                                                <th>分类方式</th>
+                                                <th>类别</th>
+                                                <th>描述</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody valign="center">
+                                            <tr>
+                                                <th rowspan="3">1</th>
+                                                <td rowspan="3">花期</td>
+                                                <td>夏菊</td>
+                                                <td>又名五九菊。在每年农历5月及9月各开花一次。现今利用保护设施栽培可在阳历5月及10月各开花一次。</td>
+                                            </tr>
+                                            <tr>
+
+                                                <td>秋菊</td>
+                                                <td>花期有早、晚之分。早菊花期在9月中、下旬为中型菊。晚菊花期在10-11月为大型菊，是栽培最普遍的秋菊。</td>
+                                            </tr>
+                                            <tr>
+                                                <td>寒菊</td>
+                                                <td>又称冬菊。花期自12月至翌年1月。</td>
+                                            </tr>
+                                            <tr>
+                                                <th rowspan="3">2</th>
+                                                <td rowspan="3">花茎</td>
+                                                <td>大菊</td>
+                                                <td>花的直径在10厘米以上，多用作多本菊和标本菊栽培。</td>
+                                            </tr>
+                                            <tr>
+                                                <td>中菊</td>
+                                                <td>花的直径为6-10厘米，老用作花坛菊及大立菊栽培。</td>
+                                            </tr>
+                                            <tr>
+                                                <td>小菊</td>
+                                                <td>花的直径在6厘米以下，属满天星型，可作盆菊、悬崖菊、扎菊、盆景菊等，以布置庭园或陈设。</td>
+                                            </tr>
+                                            <tr>
+                                                <th rowspan="2">3</th>
+                                                <td rowspan="2">颜色</td>
+                                                <td>单色</td>
+                                                <td>单色是指一花一色，有黄、白、紫、红、粉、绿、墨、泥金、雪青等。除基本色系外，每个色系又可分成多个色调。这就比较难以描述和准确把握。
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>复色</td>
+                                                <td>复色是指即一花有两种以上的颜色，色彩变化也较丰富。有一朵花两种颜色的如红黄各半的“二乔”、红黄二色的“鸳鸯荷”；有背腹两种颜色的，如背面为黄色腹面为红色的”金背大红”；有花瓣以一色为底色，其上有其他颜色条纹或斑点的，如以粉紫为底色，其上有白色斑点的“梅花鹿”；有以花瓣基部为一色，先端为另一色的，如管瓣为红色，先端为黄色的“赤线金珠”；有心花为一色，边花为另一色，但反差不大的，如“初凤”、“绿水”。
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th rowspan="5">4</th>
+                                                <td rowspan="5">瓣形</td>
+                                                <td>平瓣</td>
+                                                <td>舌状花呈平面伸展，依瓣的阔狭分为阔瓣（花瓣最阔处2厘米以上）如“帅旗”；中瓣（花瓣最阔处1-2厘米），如“墨荷”；狭瓣（花瓣最阔处1厘米以下）如“梨香菊”。
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>匙瓣</td>
+                                                <td>舌状花为平瓣与管瓣之间的中间型，花冠基部连合部分比平瓣长，花瓣先端展开如匙称为“匙片”。匙瓣又依匙片的长短可分为长匙瓣、中匙瓣和短匙瓣。依形状又有直伸、内曲和反卷之分。
+                                                </td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>管瓣</td>
+                                                <td>舌状花呈管状伸展。依管的先端开口或封闭分开管和闭管。又依管的粗细分粗管（管中部直径在0.6厘米以上）、中管（管中部直径0.3-0.6厘米）和细管（管中部直径0.3厘米以下）。
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>桂瓣</td>
+                                                <td>舌状花为平瓣或匙瓣或管瓣1-3轮。筒状花变为桂瓣状（或称星管状）。</td>
+                                            </tr>
+                                            <tr>
+                                                <td>畸瓣</td>
+                                                <td>花瓣奇特，可分为毛刺瓣、龙爪瓣和剪绒瓣。</td>
+                                            </tr>
+                                            <tr>
+                                                <th rowspan="9">6</th>
+                                                <td rowspan="9">叶形</td>
+                                                <td>正叶</td>
+                                                <td>叶形端正，长阔、大小、厚薄适度。主脉、支脉和缺裂都较整齐。</td>
+                                            </tr>
+                                            <tr>
+                                                <td>深裂正叶</td>
+                                                <td>叶形与正叶相似，缺裂较正叶为深，先端尖锐。</td>
+                                            </tr>
+                                            <tr>
+                                                <td>长叶</td>
+                                                <td>叶形较正叶狭长，缺裂较深。五裂整齐。</td>
+                                            </tr>
+                                            <tr>
+                                                <td>深裂长叶</td>
+                                                <td>叶形狭长，缺裂较长叶深，先端尖锐。</td>
+                                            </tr>
+                                            <tr>
+                                                <td>圆叶</td>
+                                                <td>叶长宽相近略呈圆形，叶肉较厚，锯齿浅钝。</td>
+                                            </tr>
+                                            <tr>
+                                                <td>葵叶</td>
+                                                <td>叶面积大，浅裂形如葵花叶。</td>
+                                            </tr>
+                                            <tr>
+                                                <td>蓬叶</td>
+                                                <td>叶形瘦长，深裂成5片狭长羽状裂叶。形如蓬蒿叶。</td>
+                                            </tr>
+                                            <tr>
+                                                <td>反转叶</td>
+                                                <td>叶缘反转，叶面突起，如船反扣，缺裂较浅或不规则。</td>
+                                            </tr>
+                                            <tr>
+                                                <td>柄附叶</td>
+                                                <td>叶柄基部附生叶肉或托叶。</td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+
+
+
+
+                                </div>
+
+                            </section>
+
+                            <section id="FBFW" class="text-center py-5" style="background-color: #d1992067;">
+                                <div class="container">
+
+                                    <h3 class="pb-5">分布范围</h3>
+                                    <p>菊花遍布中国各城镇与农村，</p>
+                                    <p>尤以北京、南京、上海、杭州、青岛、天津、开封、武汉、成都、长沙、湘潭、西安、沈阳、广州、中山市小榄镇等为盛。</p>
+                                    <p>8世纪前后，作为观赏的菊花由中国传至日本被推崇为日本国徽的图样。</p>
+                                    <p>17世纪末叶荷兰商人将中国菊花引入欧洲，</p>
+                                    <p>18世纪传入法国，</p>
+                                    <p>19世纪中期引入北美。</p>
+                                    <p>此后中国菊花遍及全球。</p>
+
+
+                                </div>
+                            </section>
+
+                            <section id="ZYJZ" class=" py-5">
+
+                                <div class="container">
+
+                                    <div class="text-center">
+                                        <h3>主要价值</h3>
+                                    </div>
+
+                                    <div class="row py-5 text-center">
+                                        <div class="col-md-4 mb-4">
+
+                                            <div class="JHpicture3  view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/JH/J06.jpg" alt="JH"
+                                                    width="300px" height="400px">
+                                                <div class="mask rgba-white-light"></div>
+
+                                            </div>
+                                            <div class="MHpicture3  view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/JH/J02.jpg" alt="JH"
+                                                    width="300px" height="400px">
+                                                <div class="mask rgba-white-light"></div>
+
+                                            </div>
+                                            <div class="MHpicture3  view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/JH/J03.jpg" alt="JH"
+                                                    width="300px" height="400px">
+                                                <div class="mask rgba-white-light"></div>
+
+                                            </div>
+                                            <div class="MHpicture3  view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/JH/J05.jpg" alt="JH"
+                                                    width="300px" height="400px">
+                                                <div class="mask rgba-white-light"></div>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-8 mb-4 text-left">
+
+                                            <h4>观赏</h4>
+                                            <p>赏菊，一直是中国民间长期流传的习惯，远从古代的京都帝王宫廷、官宦门第和庶民百姓，近至当今中国各城市的人民群众，每年都在秋天举行菊花会、菊展和菊式等各种形式的赏菊活动。北京植物园每年秋季都会举办赏菊活动。广东省中山县小榄镇菊花会始办于宋代末年，至今已有七百多年的历史，是中国延续年代最久、规模最大的菊会之一，人数最多时可达一百万。</p>
+                                            <p>菊花生长旺盛，萌发力强，一株菊花经多次摘心可以分生出上千个花蕾，有些品种的枝条柔软且多，便于制作各种造型，组成菊塔、菊桥、菊篱、菊亭、菊门、菊球等形式精美的造型。又可培植成大立菊、悬崖菊、十样锦、盆景等，形式多变，蔚为奇观，为每年的菊展增添了无数的观赏艺术品。</p>
+                                            
+                                            <h4>食用</h4>
+                                            <p>菊花能入药治病，久服或饮菊花茶能令人长寿。宋代诗人苏辙：“南阳白菊有奇功，潭上居人多老翁”。菊花可以做成精美的佳肴。“菊花肉”是经过长期摸索制作成的一种菊菜，它由一块块用蔗糖熬浆炮制的白嫩猪肉加工制成，玲珑剔透，有如白玉。每块之上黏上几丝菊瓣，饱饮油脂糖甜，观其金黄色泽，吃到口里荤中有素，素中有荤，香甜不腻，实为名菜。还有菊花鱼球、油炸菊叶、菊花鱼片粥、菊花羹、菊酒、菊茶等等，这些菊餐不但色香味俱佳，而且营养丰富。北京有名的“菊花锅子”（即在涮羊肉火锅里放些菊花煮汤），清淡味美，更是别有风味。</p>
+                                            <p>食用的花样，例如：【菊花粥】、【菊花茶】、【菊花酒】、【菊花糕】、【菊花羹】、【菊花饮】</p>
+                                            <h4>保健</h4>
+                                            <p>【菊花膏】、【菊花枕】</p>
+                                            <p>【菊花肴】：由菊花与猪肉、蛇肉炒或与鱼肉、鸡肉煮食的“菊花肉片”，荤中有素，补而不腻，清心爽口，可用于头晕目眩、风热上扰之症的治疗。</p>
+                                            <p>【菊花护膝】：将菊花、陈艾叶捣碎为粗末，装入纱布袋中，做成护膝，可祛风除湿、消肿止痛，治疗鹤膝风等关节炎。</p>
+                                            <p>【菊花香气】：有疏风、平肝之功，嗅之，对感冒、头痛有辅助治疗作用。</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </section>
+
+                            <section id="ZWWH" class="py-5" style="background-color: #d1992067;">
+
+                                <div class="container">
+                                    <div class="text-center">
+                                        <h3>植物文化</h3>
+                                    </div>
+
+                                    <div class="row py-5 text-center">
+                                        <div class="col-md-3 mb-1">
+                                            <i class="fas fa-camera-retro"></i>
+                                            <h4 class="my-4">市花</h4>
+                                            <p>菊花是中国北京、 太原、 德州、 芜湖、 中山、 湘潭、 开封、 南通、潍坊、 彰化市市花。也是日本皇室的国花。</p>
+                                        </div>
+
+                                        <div class="col-md-3 mb-1">
+                                            <i class="fas fa-camera-retro"></i>
+                                            <h4 class="my-4">花语</h4>
+                                            <p>黄色的菊花：淡淡的爱</p>
+                                            <p>白色的菊花：在中国哀挽之意，一般用于追悼死者的场合；在日本，则是贞洁、诚实的象征。</p>
+                                            <p>暗红色的菊花：娇媚</p>
+                                        </div>
+
+                                        <div class="col-md-3 mb-1">
+                                            <i class="fas fa-camera-retro"></i>
+                                            <h4 class="my-4">邮票</h4>
+                                            <p>1960年12月10日，中国邮电部发行一套“菊花”特种邮票，邮票志号“特44”，全套共十八枚，至1961年出齐。</p>
+                                        </div>
+
+                                        <div class="col-md-3 mb-1">
+                                            <i class="fas fa-camera-retro"></i>
+                                            <h4 class="my-4">诗词</h4>
+                                            <p>唐·杜甫《云安九日郑十八携酒陪诸公宴》</p>
+                                            <p>宋·陆游《九月十二日折菊》</p>
+                                            <p>晋·陶渊明《饮酒其五》</p>
+                                            <p>唐·孟浩然《过故人庄》</p>
+                                            <p>唐·黄巢《不第后赋菊》</p>
+                                            <p>唐·太宗《赋得残菊》</p>
+                                            <p>······</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </section>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </main>
+    <!-- /主体布局 -->
+
+    <!-- Footer -->
+    <footer class="page-footer font-small footer-color pt-4 mt-4">
+
+        <!-- Footer Links -->
+        <div class="container-fluid text-center text-md-left">
+
+            <!-- Grid row -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-6 mt-md-0 mt-3">
+
+                    <!-- Content -->
+                    <h5 class="text-uppercase">说一说</h5>
+                    <p>希望本站内容对您产生帮助</p>
+                    <p>欢迎各位对本站内容进行修正和补充</p>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none pb-3">
+
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3">
+
+                    <!-- Links -->
+                    <h5 class="text-uppercase">链接</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="./MH.html">梅花</a>
+                        </li>
+                        <li>
+                            <a href="./LH.html">兰花</a>
+                        </li>
+                        <li>
+                            <a href="./ZZ.html">竹子</a>
+                        </li>
+                        <li>
+                            <a href="./JH.html">菊花</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3">
+
+                    <!-- Links -->
+                    <h5 class="text-uppercase">链接</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="./index.html">首页</a>
+                        </li>
+                        <li>
+                            <a href="./《Web应用基础》课程结业报告.html">总结报告</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2021 Copyright:
+            <a href="#">重庆交通大学信息科学与工程学院 计科2019级</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- /底部 -->
+    <!-- 结束项目 -->
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Your custom scripts (optional) -->
+    <script type="text/javascript"></script>
+</body>
+
+</html>

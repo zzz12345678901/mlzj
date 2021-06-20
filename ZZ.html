@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>竹子</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/myimg/icon/Z1.svg" type="image/x-icon">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <!-- Your custom styles (optional) -->
+    <link rel="stylesheet" href="css/stylelh.css">
+</head>
+
+<body class="container">
+
+    <!-- 开始项目 -->
+    <!-- 头部 放置导航 -->
+    <header>
+        <!-- 导航栏 -->
+        <!-- navbar导航条必须的样式
+        navbar-expand-lg响应式导航栏，（中等屏幕及以上屏幕导航栏铺开，否则导航栏折叠成一个按钮）
+        navbar-dark让导航条的背景与文字颜色自动高对比
+        primary-color导航条使用主色调（蓝色） -->
+        <nav class="navbar navbar-expand-md navbar-dark mynavbar-color fixed-top ">
+            <!-- container响应式布局 -->
+            <div class="container">
+                <!-- navbar-brand品牌logo -->
+                <!-- .navbar-brand为您的公司、产品或项目名称。
+            .navbar-nav用于全高轻量级导航（包括支持下拉）。
+            .navbar-toggler用于我们的折叠插件和其他导航拖拉行为。
+              用于任何形式控件和操作的灵活和间距公用设施。
+            .navbar-text用于添加垂直为中心的文本字符串。
+            .collapse.navbar-collapse用于按父断点分组和隐藏导航栏内容。 -->
+                <a class="navbar-brand" href="#">梅兰竹菊</a>
+
+                <!-- 折叠按钮 -->
+                <!-- navbar-toggler折叠导航按钮
+            data-toggle="collapse"折叠
+            data-target="#basicExampleNav"被折叠的元素的id
+            aria- 可阅读设置
+            aria-controls="#basicExampleNav"被阅读的元素的id
+            aria-expanded="false"展开状态：未展开
+            aria-label="Toggle navigation"阅读标签，即被阅读出来的内容为：Toggle navigation（切换导航） -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#MLZJNav"
+                    aria-controls="MLZJNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- navbar-toggler-icon切换导航图标 -->
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- /折叠按钮 -->
+
+                <!-- 折叠内容 -->
+                <div class="collapse navbar-collapse" id="MLZJNav">
+                    <!-- 导航链接 -->
+                    <!-- navbar-nav表明是导航条中的导航链接，使得<li>的列表不会分布与多行
+              mr-auto该样式会把其后的项（即搜索框<form>靠右对齐），mr代表margin-right，即右外边距
+              active表明那个超链接当前是激活的，一般用于表明当前处于那个活动页面
+              sr-only意思是screen read only，为盲人上网设置的 -->
+                    <ul class="navbar-nav mr-auto">
+                        <li class="navbar-item">
+                            <a class="nav-link" href="./index.html">主页</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="nav-link" href="./MH.html">梅花</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="nav-link" href="./LH.html">兰花</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./ZZ.html">竹子</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="nav-link" href="./JH.html">菊花</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="nav-link" href="./《Web应用基础》课程结业报告.html">总结报告</a>
+                          </li>
+                    </ul>
+                    <!-- /导航链接 -->
+                </div>
+                <!-- /折叠内容 -->
+            </div>
+
+        </nav>
+        <!-- /导航栏 -->
+
+
+
+
+
+    </header>
+    <!-- /头部 放置导航-->
+
+    <!-- 主体布局 -->
+    <main>
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-2 ">
+                    <div class="main_left">
+                        <div class="DaoHang" id="DaoHang">
+                            <ul class="" style="list-style-type: none;">
+                                <li class="active DH-item">
+                                    <a href="#ZZJJ">1竹子简介</a>
+                                </li>
+                                <li class="DH-item">
+                                    <a href="#ZZPZ">2竹子品种</a>
+                                </li>
+                                <li class="DH-item">
+                                    <a href="#FBFW">3分布范围</a>
+                                </li>
+                                <li class="DH-item">
+                                    <a href="#ZYJZ">4主要价值</a>
+                                </li>
+                                <li class="DH-item">
+                                    <a href="#ZWWH">5植物文化</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-10">
+                    <div class="main_right">
+
+                        <div class="ZT" id="ZT">
+
+                            <section id="ZZJJ" class="" style="background-color: #d1992067;">
+
+                                <div class=" container">
+
+                                    <div class="row py-5">
+
+                                        <div class="col-md-4 mb-4">
+                                            <div class="ZZpicture  view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/ZZ/Z01.jpg" alt="ZZ"
+                                                    width="300px" height="400px">
+                                                <div class="mask rgba-white-light"></div>
+
+                                            </div>
+                                            <div class="ZZpicture  view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/ZZ/Z02.jpg" alt="ZZ"
+                                                    width="300px" height="400px">
+                                                <div class="mask rgba-white-light"></div>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8 mb-4">
+
+                                            <h3>竹子<span>（禾本科竹亚科植物）</span></h3>
+                                            <P>竹，又名竹子。品种繁多，有毛竹、麻竹、箭竹等。多年生禾本科竹亚科植物，茎多为木质，也有草本，学名 Bambusoideae（Bambusaceae或Bamboo），在热带、亚热带地区，东亚、东南亚和印度洋及太平洋岛屿上分布最集中，种类很多，有的低矮似草，有的高如大树，生长迅速，是世界上长得最快的植物，竹子非常坚韧，许多材料也是用竹子制成的。</P>
+                                            <p>通常通过地下匍匐的根茎成片生长，也可以通过开花结籽繁衍，种子被称为竹米。有些种类的竹笋可以食用。竹枝杆挺拔，修长，四季青翠，傲雪凌霜，倍受中国人喜爱，与梅、兰、菊并称为“花中四君子”，与梅、松并称为“岁寒三友”，从古至今文人墨客，爱竹咏竹者众多，很多竹子的原产地在中国，也称之为中国的文物标志。</p>
+                                            
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </section>
+
+                            <section id="ZZPZ" class="text-center py-5" style="background-color:peru ;">
+
+                                <div class=" container">
+
+                                    <h3>竹子品种</h3>
+
+                                    <h4>类别区分</h4>
+                                    <p>识别竹子的种类，是根据它的生长特点来鉴别的。主要是从它繁殖类型、竹秆外形和竹箨的形状特征来识别。按繁殖类型，竹分为三大类：丛生型、散生型和混生型。</p>
+                                    <table class="table table-bordered">
+                                        <caption>类别区分</caption>
+                                        <thead>
+                                            <tr>
+                                                <th>序号</th>
+                                                <th>品种</th>
+                                                <th>描述</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th>1</th>
+                                                <td>丛生型</td>
+                                                <td>就是母竹基部的芽繁殖新竹。民间称“竹兜生笋子”。如慈竹、硬头簧、麻竹、单竹等等。</td>
+                                            </tr>
+                                            <tr>
+                                                <th>2</th>
+                                                <td>散生型</td>
+                                                <td>就是由鞭根（俗称马鞭子）上的芽繁殖新竹。如毛竹、斑竹、水竹、紫竹等等。</td>
+                                            </tr>
+                                            <tr>
+                                                <th>3</th>
+                                                <td>混生型</td>
+                                                <td>就是既由母竹基部的芽繁殖，又能以竹鞭根上的芽繁殖。如箭竹(英文：Arrow Bamboo)、苦竹、棕竹、方竹等等。</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+        
+
+                                    <h4>现代竹种</h4>
+                                    <table class="table table-bordered">
+                                        <caption>现代竹种</caption>
+                                        <thead>
+                                            <tr>
+                                                <th>序号</th>
+                                                <th>品种</th>
+                                                <th>描述</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th>1</th>
+                                                <td>寿竹</td>
+                                                <td>分布于中国四川东部，重庆市东北部和湖南南部。寿竹笋味甜，较毛竹笋味美；竿供制作凉床、竹椅、灰板条、蒸笼和竹帘；竿稍可制作柴耙，枝作扫帚；箨鞘作雨帽和包裹粽子用。南方人用得是竹子的外衣作为粽壳，北方人用得是蓼叶包粽子。外壳经过太阳晒干。</td>
+                                            </tr>
+                                            <tr>
+                                                <th>2</th>
+                                                <td>箭竹</td>
+                                                <td>是大熊猫（我国国家一级保护动物）最喜爱的主要食物来源。别名：箭竹仔、包箨箭竹，地理分布 分布于甘肃南部、陕西、四川、云南，湖北、江西。生于海拔1000-3000米的山坡林缘。</td>
+                                            </tr>
+                                            <tr>
+                                                <th>3</th>
+                                                <td>慈竹</td>
+                                                <td>是丛生型竹的典型代表：高大、筒长、叶葱浓。广泛分布在我国西南各省。模式标本采自四川峨眉山。在产区是最普遍生长的竹种之一现多见于农家栽培房前屋后的平地或低丘陵，野生者似已绝迹。用途广泛，秆纤维韧性强，节稀筒长，是竹编工艺品的上乘材料，也可劈篾编结竹器，用作绞口尤佳，亦可用于简陋建筑物的竹筑墙，以及利用其竹筋和拌石灰粉刷墙壁；蘀鞘可作缝制布底鞋的填充物；经过科学加工可作为制层竹原料。笋味较苦，但水煮后仍有供蔬食者。
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>4</th>
+                                                <td>单竹</td>
+                                                <td>民间俗称“苦慈”，是慈竹属中，筒最长（有一米多长）的优质慈竹。竹质细腻，纤维韧性特强，能启成薄如蝉翼、细如发丝的竹篾丝，编织成似绸、似绢的精档竹编工艺品。这种多生长在土壤肥沃的阴山处，是竹编的最佳材料。
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>5</th>
+                                                <td>四季竹</td>
+                                                <td>丛生型，四季生笋而得名。慈竹属的一种，最大的特点是秆粗大高直，一根就有几十斤重，纤维细腻，繁殖生长快，是造纸的好材料，经济价值大。这种竹原产于湖南沅陵县大坪乡。
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>6</th>
+                                                <td>硬头簧</td>
+                                                <td>丛生型，秆高直、坚硬、质厚空小，故多用于建筑材料，农村都用于承重，挑、抬东西。种植量小。
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>7</th>
+                                                <td>斑竹</td>
+                                                <td>又名湘妃竹，散生型，秆高直，挺拔，径大，质硬，竹面上有褐色斑点，传说是尧帝的两个女儿的眼泪洒在上面而形成的，故名“斑竹”。这种竹多用于建筑材料，也可启成篾条作编织用。古代拉船的纤绳，多用此竹篾编制而成。其特点是水不易浸蚀它，轻便，拉力强。主产于湖南湘水流域。
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>8</th>
+                                                <td>楠竹</td>
+                                                <td>又名毛竹，是散生型竹的代表。秆高直，坚硬。径大20公分左右，是建筑上的好材料；竹头是雕刻工艺品的好材料；竹笋是最佳菜肴，称为“玉楠片”。盛产于四川长宁、贵州赤水、江西、浙江、湖南等地。
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>9</th>
+                                                <td>刺楠竹</td>
+                                                <td>楠竹属的一种，秆和枝丫上均有坚硬的“刺”而得名。丛生型，秆高直，挺拔粗大（径有10多公分），肉厚、空小，笋箨无毛，叶子少。多用于建材。
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>10</th>
+                                                <td>水竹</td>
+                                                <td>散生型，秆细长、坚硬，形如钢管，叶稀少，竹质韧性较强。多用于竹家具制作材料，成片大面积生长时，可用作造纸材料。
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>11</th>
+                                                <td>墨竹</td>
+                                                <td>散生型，是珍稀竹种。秆和枝都是黑色而得名；笋尖外壳呈红褐色，一年后成材。是制作笛、箫管乐器的最佳材料。
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>12</th>
+                                                <td>白粉竹</td>
+                                                <td>丛生型，慈竹属，秆节长，形如“苦慈”，竹秆面上有一层薄薄的白粉而得名。
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>13</th>
+                                                <td>箬竹</td>
+                                                <td>丛生型，箬竹属，灌木状，杆高可达2米，属于经济型竹种，竹笋味苦带有长绒毛，可食，杆细且直，为制毛笔的优良材料。竹叶宽大耐腐，可用于包裹食品，如包扎粽子，也可制斗笠蓑衣，盖屋顶，船棚等。主要分布于长江流域与华南地区。
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>14</th>
+                                                <td>罗汉竹</td>
+                                                <td>丛生型，秆不高，头部大，上身小，头部几节像“罗汉”肚子凸起起，故而得名。可作工艺品材料。
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>15</th>
+                                                <td>琴丝竹</td>
+                                                <td>丛生型，有的高大，有的矮小，秆面呈淡黄色，上面有绿色粗、细相间的线条，形如“琴丝”而得名。
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>16</th>
+                                                <td>凤尾竹</td>
+                                                <td>丛生型，秆细而矮小，枝叶很细小，形如凤尾而得名。
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>17</th>
+                                                <td>方竹</td>
+                                                <td>混生型，竹秆约呈方形而得名。面呈淡黄色，节环上有一圈小刺，故又名“刺竹”。可用于工艺品加工材料。此竹稀为珍稀竹类。福建拓荣县乍洋乡凤里村有一片珍贵的“方竹”。
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>18</th>
+                                                <td>棕竹</td>
+                                                <td>混生型，其干似竹非竹，黑色有皮，心实，肉内有白鬃纹。
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>19</th>
+                                                <td>斗笠竹</td>
+                                                <td>混生型，秆细直、质硬，叶宽大，繁殖力强，古代用秆制作箭秆。青神人常用叶夹在竹编斗笠里，用于防雨或日晒，故而得名“斗笠竹”。
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>20</th>
+                                                <td>巨龙竹</td>
+                                                <td>世界上已知最粗大的巨型丛生竹种，产于我国云南地区，当地人可以用来做水桶或大型器具。有专业人士说是金雷竹。
+                                                </td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+
+
+                                    <h4>古代竹种</h4>
+                                    <table class="table table-bordered">
+                                        <caption>古代竹种</caption>
+                                        <thead>
+                                            <tr>
+                                                <th>序号</th>
+                                                <th>品种</th>
+                                                <th>描述</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th>1</th>
+                                                <td>十二时竹</td>
+                                                <td>竹节环绕凸出生子、丑、寅、卯、巳、午、未、申、酉、戌、亥等十二字，蕲州安福周俊叔家有此竹，亦造物之奇也。</td>
+                                            </tr>
+                                            <tr>
+                                                <th>2</th>
+                                                <td>葸劳竹</td>
+                                                <td>是大熊猫（我国国家一级保护动物）最喜爱的主要食物来源。别名：箭竹仔、包箨箭竹，地理分布 分布于甘肃南部、陕西、四川、云南，湖北、江西。生于海拔1000-3000米的山坡林缘。</td>
+                                            </tr>
+                                            <tr>
+                                                <th>3</th>
+                                                <td>人面竹</td>
+                                                <td>出郯山，竹径几寸，近本逮二尺，节促四面参差，竹皮有如鱼鳞，面凸颇似人之面，竹大的如碗口，小的如手指，是工艺加工珍宝。
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>4</th>
+                                                <td>金镶碧嵌竹</td>
+                                                <td>产自成都，与常竹无异，但秆上每节两青两黄相间。
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>5</th>
+                                                <td>孝顺竹</td>
+                                                <td>秆细而长，作大丝，夏则笋从中发，源让母竹，冬则笋从外护，母竹内包故称慈教。
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>6</th>
+                                                <td>蕲竹</td>
+                                                <td>出楚蕲州，土人取其色之莹润者为簟，节疏者为箫管（笛）。
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>7</th>
+                                                <td>双竹</td>
+                                                <td>生浙之武林西山，其妙在修篁嫩条，对抽并乱，色最可爱。
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>8</th>
+                                                <td>龙公竹</td>
+                                                <td>产自罗浮山，其径大七尺许，节长丈二，叶若芭蕉。
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>9</th>
+                                                <td>弓竹</td>
+                                                <td>产于东方，本长百寻，其曲如藤状，必得大木，乃倚而上，质有纹理。
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>10</th>
+                                                <td>柯亭竹</td>
+                                                <td>产在云梦之南，其秆俟其年之后，划为乐器，音最清亮。
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>11</th>
+                                                <td>桂竹</td>
+                                                <td>出自南康府，秆高四、五丈，围约一尺许，状似甘草皮而赤色。
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>12</th>
+                                                <td>思摩竹</td>
+                                                <td>奇在笋自节上，成竹竿之后，其节中复又生笋，出海外。
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>13</th>
+                                                <td>梅绿竹</td>
+                                                <td>其秆似湘妃而细，皮无旋纹，色亦暗，而大不如人，多取为扇骨。
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>14</th>
+                                                <td>大夫竹</td>
+                                                <td>以其修长，秆直凌云，围有三尺，故得是名，出鹿延。
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>15</th>
+                                                <td>龙须竹</td>
+                                                <td>生辰州及浙三山谷间，高不盈尺，而枝秆细仅如针，可作盆玩，但遇冬不可见霜雪。
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>16</th>
+                                                <td>临贺竹</td>
+                                                <td>其杆之大，至有十抱，较之龙公竹更奇。出临贺。
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>17</th>
+                                                <td>相思竹</td>
+                                                <td>出广东，似双竹而差大，皆两两相对而生。
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>18</th>
+                                                <td>疏节竹</td>
+                                                <td>其杆最高，每一节差一寸许，出自黎母山阳。
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>19</th>
+                                                <td>丹青竹</td>
+                                                <td>出自熊耳山，其叶有三色，黄、青、丹相间而生。
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>20</th>
+                                                <td>通节竹</td>
+                                                <td>产于溱州，其杆直上无节，而中心空洞无隔，亦异种也。
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>21</th>
+                                                <td>凝波竹</td>
+                                                <td>其枝叶皆似常竹，但有红花，开似石榴，亦奇竹也。
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>22</th>
+                                                <td>沛竹</td>
+                                                <td>昔传是竹长百丈，出自南荒之城，附此以志异耳。
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>23</th>
+                                                <td>扁竹</td>
+                                                <td>其杆极扁，出匡卢山。
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>24</th>
+                                                <td>船竹</td>
+                                                <td>出员丘，其大如澡盆。
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>25</th>
+                                                <td>邛竹</td>
+                                                <td>汉武帝遣人开，致邛竹杖。
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>26</th>
+                                                <td>观音竹</td>
+                                                <td>占城围。
+                                                </td>
+                                            </tr>
+
+
+                                        </tbody>
+                                    </table>
+
+
+
+                                </div>
+
+                            </section>
+
+                            <section id="FBFW" class="text-center py-5" style="background-color: #d1992067;">
+                                <div class="container">
+
+                                    <h3 class="pb-5">分布范围</h3>
+                                    <p>全世界约有100至1000多种竹子，</p><p>意大利、德国、法国、荷兰、英国已从亚、 非、拉引进了大到毛竹，</p><p>小至赤竹的十几个属100多种竹子，</p><p>大量用于庭园绿化。</p><p>尤以从中国和日本引进的较耐寒的刚竹属、苦竹 属、赤竹属竹种为主。</p>
+
+
+
+                                </div>
+                            </section>
+
+                            <section id="ZYJZ" class=" py-5">
+
+                                <div class="container">
+
+                                    <div class="text-center">
+                                        <h3>主要价值</h3>
+                                    </div>
+
+                                    <div class="row py-5 text-center">
+                                        <div class="col-md-4 mb-4">
+
+                                            <div class="ZZpicture3  view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/ZZ/Z03.jpg" alt="ZZ"
+                                                    width="300px" height="400px">
+                                                <div class="mask rgba-white-light"></div>
+
+                                            </div>
+                                            <div class="ZZpicture3  view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/ZZ/Z04.jpg" alt="ZZ"
+                                                    width="300px" height="400px">
+                                                <div class="mask rgba-white-light"></div>
+
+                                            </div>
+                                            <div class="ZZpicture3  view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/ZZ/Z05.jpg" alt="ZZ"
+                                                    width="300px" height="400px">
+                                                <div class="mask rgba-white-light"></div>
+
+                                            </div>
+                                            <div class="ZZpicture3  view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/ZZ/Z07.png" alt="ZZ"
+                                                    width="300px" height="400px">
+                                                <div class="mask rgba-white-light"></div>
+
+                                            </div>
+                                            <div class="ZZpicture3  view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/ZZ/Z08.jpg" alt="ZZ"
+                                                    width="300px" height="400px">
+                                                <div class="mask rgba-white-light"></div>
+
+                                            </div>
+                                            <div class="ZZpicture3  view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/ZZ/Z09.jpg" alt="ZZ"
+                                                    width="300px" height="400px">
+                                                <div class="mask rgba-white-light"></div>
+
+                                            </div>
+                                            <div class="ZZpicture3  view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/ZZ/Z010.png" alt="ZZ"
+                                                    width="300px" height="400px">
+                                                <div class="mask rgba-white-light"></div>
+
+                                            </div>
+                                            <div class="ZZpicture3  view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/ZZ/Z011.jpg" alt="ZZ"
+                                                    width="300px" height="400px">
+                                                <div class="mask rgba-white-light"></div>
+
+                                            </div>
+                                            <div class="ZZpicture3  view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/ZZ/Z012.jpg" alt="ZZ"
+                                                    width="300px" height="400px">
+                                                <div class="mask rgba-white-light"></div>
+
+                                            </div>
+                                            <div class="ZZpicture3  view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/ZZ/Z014.jpg" alt="ZZ"
+                                                    width="300px" height="400px">
+                                                <div class="mask rgba-white-light"></div>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-8 mb-4 text-left">
+
+                                            <h4>生活用途</h4>
+                                            <p>在庭院中，是不可缺少的点缀假山水榭的植物。桂林漓江旁广植凤尾竹。安吉大竹海、蜀南竹海与赣南竹海是中国有名的竹海景观。由于竹子生长快，最近为环保考量，有大量家具与纸改用竹子制造。竹子也可制作工艺品、乐器等。将竹材用工程化方法，经物理和化学作用制成的竹纤维，被用作纺织品，做成毛巾和衣物等。将竹材通过烘培，制成竹炭，被用在许多场合，包括去除环境气味，以及特殊风味食品。竹炭经过粉碎和活化制成的活性炭，有很好的吸附和净化作用，被用在汽车和家居，以及污水处理等。竹也常用于建造棚架（搭棚）、做为建材及扫帚、桌、椅等日用品。竹也可以编制箩筐、背篓、菜篮、席子等一般农村多见。竹子现在已广泛应用到家纺、袜子、内衣等贴身纺织领域。</p>
+                                            <p>在日本、韩国，有人会用之配以海盐、黄土等，以类似炼钢的方法，加工成青竹盐(或称竹盐)，作为调味料、甚至加进个人卫生用品之中，竹盐牙膏就是当中较知名的产物。据称有消炎抗菌、防敏抗蛀、保持牙龈胶原、以预防牙龈退化及牙周病的效果。</p>
+                                            
+                                            <h4>医药用途</h4>
+                                            <p>竹叶：《本草纲目》：“淡竹叶气味辛平，大寒，无毒；主治：心烦、尿赤、小便不利等。苦竹叶气味苦冷、无毒；主治口疮、目痛、失眠、中风等。药用竹叶以夏秋两季采摘嫩叶，晒干、煎水饮；用量2到4钱”，竹叶还常用于作药粥。据清代曹庭栋名医所编的《老老恒言》记载：“竹叶解渴除烦，中暑者宜用竹叶一握，山桅一枚，煎汤去渣下米煮粥，进一、二杯即愈”。《多能鄙事.卷回》：“竹叶粥治老人膈上风热，目赤头痛，视而不见物。”</p>
+                                            <p>竹沥：是将竹竿劈开，经火炙，收集两端滴出的竹汁。《本草纲目》记载：“竹沥气味甘、大寒、无毒。主治：暴中风风痹，胸中大热，止烦闷，消渴，劳复。”近代药物化学分析证明：竹沥含有十多种氨基酸、葡萄糖、果糖、蔗糖以及愈伤木酚，甲酚、甲酸、乙酸、苯甲酸等多种化学成分。药理试验证明，竹沥确实具有镇咳祛痰功效。</p>
+                                            <P>竹实：竹开花后结实如麦，皮青色，内含竹米，味甜。《广志》记载：“实可服食”。《本草纲目》：“竹实通神明，轻身益气”。《本草纲目拾遗》：“下积如神”(注：治消化不良)。近代研究证明，竹实的营养成分与水稻、麦、玉米相似，除富含淀粉、蛋白质、脂肪之外，还含有18种氨基酸，是一种可开发的药膳资源。</P>
+                                            <P>竹茹：是竹茎刮去绿色皮层后，再刮取第二层之物，亦称“竹二青”，《本草纲目》：“淡竹茹，气味甘、微寒、无毒。主治：呕吐，温气寒热，吐血、崩中、止肺痿，治五痔、妇女胎动。苦竹茹，主治热壅，尿血”。</P>
+                                            <P>竹菌：系指生于竹林中的菌类，如竹荪 是生于竹林地上的一种真菌。有关它的药膳作用在《食疗本草》、《本草拾遗》、《本草纲目》等医著中均有记载。竹荪作食用菌已有悠久的历史，过去只能从野外采集，数量极有限，通常只作帝王贡品，现已进行人工栽培，其产量和质量均有显著的提高。</P>
+                                            <P>竹根：入药，有清热除烦之功效。《本草纲目》：“淡竹根煮汁服，除烦热、解丹石发热渴。苦竹根主治心肺五脏热毒气。甘竹根，安胎，止产后烦热”。</P>
+                                            <P>竹笋：是竹的幼芽，不仅组织细嫩，清脆爽口、滋味鲜美，而且营养丰富，它作为药膳资源在我国有悠久的历史，《本草纲目》、《本草经》、《食疗本草》、《食经》、《齐民要术》、《唐本草》等古典名著均有记载。如《本草纲目》：笋味甘、无毒、主消渴、利水益气、可久食。</P>
+                                            <P>竹青：是去火清凉的中药材。</P>
+                                            <P>竹叶心：可治腹泻。抽取竹叶心食用其白嫩部分，可治疗轻度腹泻。</P>
+
+
+
+
+                                            <h4>科技用途</h4>
+                                            <p>早在商周时代，中国已发明使用竹钻。公元前251年李冰任四川太守时，便带领民众修筑了世界上第一座农田水利灌溉工程－－四川都江堰。其中使用了大量的竹子，世界上最古老的自来水管是用竹子制作的，古时称为“笕”；在盛产竹子的四川，汉代时人们已用竹缆绳打出了深厚度达1600米的盐井。到19世纪这种竹缆绳打井技术才传到欧洲，1859年美国在宾尼夕法尼亚州钻出了第一口油井；早在9世纪中国已开始用竹造纸，造纸术成为中国四大发明之一。文房四宝之一的毛笔，竹枝是上等材料。 久负盛名的湖笔已发展成羊毫、兼毫、紫毫和狼毫四大类、250余个品种，既是人们得心应手的书写工具，又是赏心悦目的工艺品；算盘是中国古代科学发明的成果，而它的前身“筹算”，就是用竹签做筹码来进行运算的；随着火药的发明，南宋时人们采用竹管制造出突火枪，明代的万户在自己坐的椅子的四条腿上各绑一个大竹筒，里边装上火药，想点燃后利用火药喷射的反作用力，将自己送入空中，最终被火药炸死。虽异想天开，却是最早的“载人火箭”的构思者。明代，人们用竹筒制作成一种“二级火箭”，名叫“ 火龙出水”，发射升空时极为壮观；随着科技的进步与发展，20世纪末，人类成功的利用竹子生产出竹纤维，经过化学处理生产的竹纤维手感柔软，悬垂性好，染色色彩亮丽，而且具有天然的抗菌功能竹炭加入涤纶纤维就形成了竹炭纤维。竹炭纤维具有除臭能力，还具有很好的释放远红外、负离子的功能；竹子高温炭化后形成竹炭，竹炭具有强大的吸附能力。可以清除周围空气中的有害物质。</p>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </section>
+
+                            <section id="ZWWH" class="py-5" style="background-color: #d1992067;">
+
+                                <div class="container">
+                                    <div class="text-center">
+                                        <h3>植物文化</h3>
+                                    </div>
+
+                                    <div class="row py-5 text-center">
+                                        <div class="col-md-3 mb-1">
+                                            <i class="fas fa-camera-retro"></i>
+                                            <h4 class="my-4">竹的寓意</h4>
+                                            <p>竹报平安</p>
+                                            <p>竹苞松茂</p>
+                                            <p>青梅竹马</p>
+                                            <p>茂林修竹</p>
+                                            <p>势如破竹</p>
+                                        </div>
+
+                                        <div class="col-md-3 mb-1">
+                                            <i class="fas fa-camera-retro"></i>
+                                            <h4 class="my-4">相关词集</h4>
+                                            <p>竹林七贤</p>
+                                            <p>松竹梅</p>
+                                            <p>竹山词</p>
+                                            <P>竹坡词</P>
+                                            <P>竹素</P>
+                                            <P>竹枝词</P>
+                                            <P>竹坞听琴</P>
+                                            <P>竹书纪年</P>
+                                            <P>······</P>
+                                        </div>
+
+                                        <div class="col-md-3 mb-1">
+                                            <i class="fas fa-camera-retro"></i>
+                                            <h4 class="my-4">文化象征</h4>
+                                            <p>岁寒三友之竹</p>
+                                            <p>竹之十德</p>
+                                            <p>竹之力学性能</p>
+                                            
+                                        </div>
+
+                                        <div class="col-md-3 mb-1">
+                                            <i class="fas fa-camera-retro"></i>
+                                            <h4 class="my-4">诗文传诵</h4>
+                                            <p>《诗经》</p>
+                                            <p>《慈姥竹》（唐）李白</p>
+                                            <p>《竹径》李得裕</p>
+                                            <p>《酬人雨后玩竹》薛涛</p>
+                                            <p>《同郭参谋崔仆射淮南节度使厅前竹》刘长卿</p>
+                                            <p>《洗然弟竹亭》孟浩然</p>
+                                            <p>《新竹》韩愈</p>
+                                            <p>······</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </section>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </main>
+    <!-- /主体布局 -->
+
+    <!-- Footer -->
+    <footer class="page-footer font-small footer-color pt-4 mt-4">
+
+        <!-- Footer Links -->
+        <div class="container-fluid text-center text-md-left">
+
+            <!-- Grid row -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-6 mt-md-0 mt-3">
+
+                    <!-- Content -->
+                    <h5 class="text-uppercase">说一说</h5>
+                    <p>希望本站内容对您产生帮助</p>
+                    <p>欢迎各位对本站内容进行修正和补充</p>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none pb-3">
+
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3">
+
+                    <!-- Links -->
+                    <h5 class="text-uppercase">链接</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="./MH.html">梅花</a>
+                        </li>
+                        <li>
+                            <a href="./LH.html">兰花</a>
+                        </li>
+                        <li>
+                            <a href="./ZZ.html">竹子</a>
+                        </li>
+                        <li>
+                            <a href="./JH.html">菊花</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3">
+
+                    <!-- Links -->
+                    <h5 class="text-uppercase">链接</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="./index.html">首页</a>
+                        </li>
+                        <li>
+                            <a href="./《Web应用基础》课程结业报告.html">总结报告</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2021 Copyright:
+            <a href="#">重庆交通大学信息科学与工程学院 计科2019级</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- /底部 -->
+    <!-- 结束项目 -->
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Your custom scripts (optional) -->
+    <script type="text/javascript"></script>
+</body>
+
+</html>

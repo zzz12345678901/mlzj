@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>梅花</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/myimg/icon/Z1.svg" type="image/x-icon">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <!-- Your custom styles (optional) -->
+    <link rel="stylesheet" href="css/stylelh.css">
+</head>
+
+<body class="container">
+
+    <!-- 开始项目 -->
+    <!-- 头部 放置导航 -->
+    <header>
+        <!-- 导航栏 -->
+        <!-- navbar导航条必须的样式
+        navbar-expand-lg响应式导航栏，（中等屏幕及以上屏幕导航栏铺开，否则导航栏折叠成一个按钮）
+        navbar-dark让导航条的背景与文字颜色自动高对比
+        primary-color导航条使用主色调（蓝色） -->
+        <nav class="navbar navbar-expand-md navbar-dark mynavbar-color fixed-top ">
+            <!-- container响应式布局 -->
+            <div class="container">
+                <!-- navbar-brand品牌logo -->
+                <!-- .navbar-brand为您的公司、产品或项目名称。
+            .navbar-nav用于全高轻量级导航（包括支持下拉）。
+            .navbar-toggler用于我们的折叠插件和其他导航拖拉行为。
+              用于任何形式控件和操作的灵活和间距公用设施。
+            .navbar-text用于添加垂直为中心的文本字符串。
+            .collapse.navbar-collapse用于按父断点分组和隐藏导航栏内容。 -->
+                <a class="navbar-brand" href="#">梅兰竹菊</a>
+
+                <!-- 折叠按钮 -->
+                <!-- navbar-toggler折叠导航按钮
+            data-toggle="collapse"折叠
+            data-target="#basicExampleNav"被折叠的元素的id
+            aria- 可阅读设置
+            aria-controls="#basicExampleNav"被阅读的元素的id
+            aria-expanded="false"展开状态：未展开
+            aria-label="Toggle navigation"阅读标签，即被阅读出来的内容为：Toggle navigation（切换导航） -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#MLZJNav"
+                    aria-controls="MLZJNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- navbar-toggler-icon切换导航图标 -->
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- /折叠按钮 -->
+
+                <!-- 折叠内容 -->
+                <div class="collapse navbar-collapse" id="MLZJNav">
+                    <!-- 导航链接 -->
+                    <!-- navbar-nav表明是导航条中的导航链接，使得<li>的列表不会分布与多行
+              mr-auto该样式会把其后的项（即搜索框<form>靠右对齐），mr代表margin-right，即右外边距
+              active表明那个超链接当前是激活的，一般用于表明当前处于那个活动页面
+              sr-only意思是screen read only，为盲人上网设置的 -->
+                    <ul class="navbar-nav mr-auto">
+                        <li class="navbar-item">
+                            <a class="nav-link" href="./index.html">主页</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./MH.html">梅花</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="nav-link" href="./LH.html">兰花</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="nav-link" href="./ZZ.html">竹子</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="nav-link" href="./JH.html">菊花</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="nav-link" href="./《Web应用基础》课程结业报告.html">总结报告</a>
+                          </li>
+                    </ul>
+                    <!-- /导航链接 -->
+
+                </div>
+                <!-- /折叠内容 -->
+            </div>
+
+        </nav>
+        <!-- /导航栏 -->
+
+
+
+
+
+    </header>
+    <!-- /头部 放置导航-->
+
+    <!-- 主体布局 -->
+    <main>
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-2 ">
+                    <div class="main_left">
+                        <div class="DaoHang" id="DaoHang">
+                            <ul class="" style="list-style-type: none;">
+                                <li class="active DH-item">
+                                    <a href="#MHJJ">1梅花简介</a>
+                                </li>
+                                <li class="DH-item">
+                                    <a href="#MHPZ">2梅花品种</a>
+                                </li>
+                                <li class="DH-item">
+                                    <a href="#FBFW">3分布范围</a>
+                                </li>
+                                <li class="DH-item">
+                                    <a href="#ZYJZ">4主要价值</a>
+                                </li>
+                                <li class="DH-item">
+                                    <a href="#ZWWH">5植物文化</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-10">
+                    <div class="main_right">
+
+                        <div class="ZT" id="ZT">
+
+                            <section id="MHJJ" class="" style="background-color: #d1992067;">
+
+                                <div class=" container">
+
+                                    <div class="row py-5">
+
+                                        <div class="col-md-4 mb-4">
+                                            <div class="MHpicture  view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/MH/M01.jpg" alt="MH"
+                                                    width="300px" height="400px">
+                                                <div class="mask rgba-white-light"></div>
+
+                                            </div>
+                                            <div class="MHpicture  view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/MH/M02.jpg" alt="MH"
+                                                    width="300px" height="400px">
+                                                <div class="mask rgba-white-light"></div>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8 mb-4">
+
+                                            <h3>梅<span>（蔷薇科杏属植物）</span></h3>
+                                            <P>梅花（蔷薇科杏属植物）一般指梅（蔷薇科杏属植物）</P>
+                                            <p>梅（学名：Armeniaca mume
+                                                Sieb.）：小乔木，稀灌木，高4-10米；树皮浅灰色或带绿色，平滑；小枝绿色，光滑无毛。叶片卵形或椭圆形，叶边常具小锐锯齿，灰绿色。花单生或有时2朵同生于1芽内，直径2-2.5厘米，香味浓，先于叶开放；花萼通常红褐色，但有些品种的花萼为绿色或绿紫色；花瓣倒卵形，白色至粉红色。果实近球形，直径2-3厘米，黄色或绿白色，被柔毛，味酸；果肉与核粘贴；核椭圆形，两侧微扁。花期冬春季，果期5-6月。2n=16，24。
+                                            </p>
+                                            <p>梅原产中国南方，已有三千多年的栽培历史，无论作观赏或果树均有许多品种。许多类型不但露地栽培供观赏，还可以栽为盆花，制作梅桩。鲜花可提取香精，花、叶、根和种仁均可入药。果实可食、盐渍或干制，或熏制成乌梅入药，有止咳、止泻、生津、止渴之效。梅又能抗根线虫危害，可作核果类果树的砧木。
+                                            </p>
+                                            <p>梅花是中国十大名花之首，与兰花、竹子、菊花一起列为四君子，与松、竹并称为“岁寒三友”。在中国传统文化中，梅以它的高洁、坚强、谦虚的品格，给人以立志奋发的激励。在严寒中，梅开百花之先，独天下而春。
+                                            </p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </section>
+
+                            <section id="MHPZ" class="text-center py-5" style="background-color:peru ;">
+
+                                <div class=" container">
+
+                                    <h3>梅花品种</h3>
+                                    <p>梅的品种分果梅和花梅两大类。</p>
+
+                                    <h4>果梅</h4>
+                                    <p>果梅的栽培品种，据曾勉教授在浙江的调查研究，大致分为三类，简述如下。</p>
+                                    <table class="table table-bordered">
+                                        <caption>果梅品种</caption>
+                                        <thead>
+                                            <tr>
+                                                <th>序号</th>
+                                                <th>品种</th>
+                                                <th>描述</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th>1</th>
+                                                <td>白梅品种群</td>
+                                                <td>果实黄白色，质粗，味苦，核大肉少，供制梅干用。例如大白头、太公种等。成熟期在4月上、中旬。</td>
+                                            </tr>
+                                            <tr>
+                                                <th>2</th>
+                                                <td>青梅品种群</td>
+                                                <td>果实青色或青黄色，味酸或稍带苦涩，品质中等，多数供制蜜饯用。例如四月梅、五月梅、白水梅等。成熟期为4月中、下旬。</td>
+                                            </tr>
+                                            <tr>
+                                                <th>3</th>
+                                                <td>花梅品种群</td>
+                                                <td>果实红色或紫红色，质细脆而味稍酸，品质优良，供制陈皮梅、劈梅等用。例如软条梅、紫蒂梅、大叶猪肝、胭脂梅等。成熟期在5月上、中旬至6月。
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                    <h4>花梅</h4>
+                                    <p>花梅的品种，由于长期栽培，变异较大，品种甚多，据陈俊愉教授近期研究，分为以下四类。</p>
+                                    <table class="table table-bordered">
+                                        <caption>花梅品种</caption>
+                                        <thead>
+                                            <tr>
+                                                <th>序号</th>
+                                                <th>品种</th>
+                                                <th>描述</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th>1</th>
+                                                <td>直脚梅类</td>
+                                                <td>枝条直立或斜展，按花型和花色分为七型</td>
+                                            </tr>
+                                            <tr>
+                                                <th>2</th>
+                                                <td>照水梅类</td>
+                                                <td>枝条下垂，形成独特的伞状树姿，可分为六型</td>
+                                            </tr>
+                                            <tr>
+                                                <th>3</th>
+                                                <td>龙游梅类</td>
+                                                <td>枝条自然扭曲如游龙；花碟形，半重瓣，白色，如龙游梅</td>
+                                            </tr>
+                                            <tr>
+                                                <th>4</th>
+                                                <td>杏梅类</td>
+                                                <td> 枝和叶似山杏；花半重瓣，粉红色，如杏梅、洋梅、送春等品种。花期较晚，抗寒性较强，可能是杏与梅的天然杂交种</td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+
+                                    <h4>直脚梅类</h4>
+                                    <p>枝条直立或斜展，按花型和花色分为以下七型。</p>
+                                    <table class="table table-bordered">
+                                        <caption>直脚梅类</caption>
+                                        <thead>
+                                            <tr>
+                                                <th>序号</th>
+                                                <th>品种</th>
+                                                <th>描述</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th>1</th>
+                                                <td>江梅型</td>
+                                                <td>花碟形，单瓣，纯白、水红、肉色或桃红等色。有29个品种，如单粉、单瓣红、杨贵妃、小玉蝶、白梅等。</td>
+                                            </tr>
+                                            <tr>
+                                                <th>2</th>
+                                                <td>宫粉型</td>
+                                                <td>花碟形，半重瓣至重瓣，粉红色。现知75个品种，如宫粉、粉嘴子、千叶红、南京春，粉妆台阁等。</td>
+                                            </tr>
+                                            <tr>
+                                                <th>3</th>
+                                                <td>大红型</td>
+                                                <td>似宫粉型而花色大红，开花特繁，甜香甚浓。有品种15个，如红梅、大红、小红、红星、天星红等。</td>
+                                            </tr>
+                                            <tr>
+                                                <th>4</th>
+                                                <td>朱砂型</td>
+                                                <td>花碟形，单瓣、半重瓣或重瓣，紫红色。已有47个品种，如白须朱砂、江南朱砂、骨里红等。</td>
+                                            </tr>
+                                            <tr>
+                                                <th>5</th>
+                                                <td>玉碟型</td>
+                                                <td>花碟形，重瓣，白色；花萼绛紫色。有30个品种，如玉碟、粉碟、紫蒂白等。</td>
+                                            </tr>
+                                            <tr>
+                                                <th>6</th>
+                                                <td>绿萼型</td>
+                                                <td>花碟形，单瓣至半重瓣，白色；花萼绿色。已有13品种，如绿萼、单瓣绿萼、李花绿萼等。</td>
+                                            </tr>
+                                            <tr>
+                                                <th>7</th>
+                                                <td>洒金型</td>
+                                                <td>花碟形，单瓣至重瓣，在一棵树上同时开近白色、粉红色与白底红条或白底红斑点的各色花朵，较为独特。现已知有9个品种，如洒金红、晚跳枝、二乔、五宝等。
+                                                </td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+
+                                    <h4>照水梅类</h4>
+                                    <p>枝条下垂，形成独特的伞状树姿，可分为以下六型。</p>
+                                    <table class="table table-bordered">
+                                        <caption>照水梅类</caption>
+                                        <thead>
+                                            <tr>
+                                                <th>序号</th>
+                                                <th>品种</th>
+                                                <th>描述</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th>1</th>
+                                                <td>单粉照水型</td>
+                                                <td>花碟形，单瓣，粉红或白色。现知有3个品种，如单粉照水、单瓣照水等。</td>
+                                            </tr>
+                                            <tr>
+                                                <th>2</th>
+                                                <td>双粉照水型</td>
+                                                <td> 花碟形，半重瓣或重瓣，粉红色。有2个品种，即绫眼和东洋红照水。</td>
+                                            </tr>
+                                            <tr>
+                                                <th>3</th>
+                                                <td>骨红照水型</td>
+                                                <td>花碟形，单瓣，深紫红色，如骨红照水。</td>
+                                            </tr>
+                                            <tr>
+                                                <th>4</th>
+                                                <td>残雪照水型</td>
+                                                <td> 花碟形，半重瓣，白色，如残雪照水。</td>
+                                            </tr>
+                                            <tr>
+                                                <th>5</th>
+                                                <td>白碧照水型</td>
+                                                <td>花碟形，单瓣或半重瓣，白色；花萼绿色，如双碧照水、单碧照水。</td>
+                                            </tr>
+                                            <tr>
+                                                <th>6</th>
+                                                <td>五宝照水型</td>
+                                                <td>一棵树上同时开近白、粉红及白底红条纹或白底红斑点的花，如五宝照水。</td>
+                                            </tr>
+
+
+                                        </tbody>
+                                    </table>
+
+
+
+
+                                </div>
+
+                            </section>
+
+                            <section id="FBFW" class="text-center py-5" style="background-color: #d1992067;">
+                                <div class="container">
+
+                                    <h3 class="pb-5">分布范围</h3>
+                                    <p>中国各地均有栽培，</p>
+                                    <p>但以长江流域以南各省最多，</p>
+                                    <p>江苏北部和河南南部也有少数品种，</p>
+                                    <p>某些品种已在华北引种成功。</p>
+                                    <p>日本和朝鲜也有。</p>
+
+                                </div>
+                            </section>
+
+                            <section id="ZYJZ" class=" py-5">
+
+                                <div class="container">
+
+                                    <div class="text-center">
+                                        <h3>主要价值</h3>
+                                    </div>
+
+                                    <div class="row py-5 text-center">
+                                        <div class="col-md-4 mb-4">
+
+                                            <div class="MHpicture3  view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/MH/M01.jpg" alt="MH"
+                                                    width="300px" height="400px">
+                                                <div class="mask rgba-white-light"></div>
+
+                                            </div>
+                                            <div class="MHpicture3  view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/MH/M02.jpg" alt="MH"
+                                                    width="300px" height="400px">
+                                                <div class="mask rgba-white-light"></div>
+
+                                            </div>
+                                            <div class="MHpicture3  view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/MH/M03.jpg" alt="MH"
+                                                    width="300px" height="400px">
+                                                <div class="mask rgba-white-light"></div>
+
+                                            </div>
+                                            <div class="MHpicture3  view overlay z-depth-1-half">
+                                                <img class="img-fluid" src="./img/myimg/MH/M04.jpg" alt="MH"
+                                                    width="300px" height="400px">
+                                                <div class="mask rgba-white-light"></div>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-8 mb-4 text-left">
+
+                                            <h4>观赏</h4>
+                                            <p>中国古代文人对梅花情有独钟，视赏梅为一件雅事。赏梅贵在“探”字，品赏梅花一般着眼于色、香、形、韵、时等方面。</p>
+                                            <p>色：梅花的花色有紫红、粉红、淡黄、淡墨、纯白等多种颜色。</p>
+                                            <p>香：梅花香味别具神韵、清逸幽雅，被历代文人墨客称为暗香。</p>
+                                            <p>形：古人认为“梅以形势为第一”，即形态和姿势。</p>
+                                            <p>韵：宋代诗人范成大在《梅谱》中说：“梅以韵胜，以格高，故以横斜疏瘦与老枝怪石着为贵。</p>
+                                            <p>时：探梅赏梅须及时。</p>
+                                            <p>四贵四不贵：贵疏不贵繁，贵合不贵开，贵瘦不贵肥，贵老不贵新。梅的枝干以苍劲嶙峋为美，形若游龙，遒劲倔强的枝干，缀以数朵凌寒傲放的淡梅，兼覆一层薄雪，「古梅一树雪精神」，俨然天成一幅水墨大写意。
+                                            </p>
+                                            <h4>经济</h4>
+                                            <p>变种和品种极多，可分花梅及果梅两类。花梅主要供观赏。果梅其果实主要作加工或药用，一般加工制成各种蜜饯和果酱；用青梅加工制成乌梅供药用，为收敛剂，能治痢疾，并有镇咳、祛痰、解热、杀虫等功效，又为提取枸橼酸的原料；花蕾能开胃散郁、生津化痰、活血解毒；根研成粉末治黄疽有效。该种植物对氟化氢污染敏感，可以用来监测大气氟化物行染。未成熟果实含柠檬酸、苹果酸、琥珀酸等；种子含苦杏仁苷；花含挥发油，油中含苯甲醛、苯甲酸等。
+                                            </p>
+                                            <p>梅花最宜植于庭院、草坪、低山丘陵，可孤植、丛植、群植。又可盆栽观赏或加以整剪做成各式桩景，或作切花瓶插供室内装饰用。</p>
+                                            <h4>药用</h4>
+                                            <p>花蕾（梅花）：微酸、涩，平。开郁和中，化痰，解毒。用于郁闷心烦，肝胃气痛，梅核气，瘰疬疮毒。</p>
+                                            <p>果实（乌梅）：酸、涩，平。敛肺，涩肠，生津，安蛔。用于肺虚久咳，虚热消渴，蛔厥呕吐腹痛，胆道蛔虫症。
+                                            </p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </section>
+
+                            <section id="ZWWH" class="py-5" style="background-color: #d1992067;">
+
+                                <div class="container">
+                                    <div class="text-center">
+                                        <h3>植物文化</h3>
+                                    </div>
+
+                                    <div class="row py-5 text-center">
+                                        <div class="col-md-4 mb-1">
+                                            <i class="fas fa-camera-retro"></i>
+                                            <h4 class="my-4">市花市树</h4>
+                                            <p>中国南京、无锡、泰州、武汉、丹江口、鄂州、淮北、梅州、南投等10个城市，已将梅花定为市花。</p>
+                                        </div>
+
+                                        <div class="col-md-4 mb-1">
+                                            <i class="fas fa-camera-retro"></i>
+                                            <h4 class="my-4">观梅胜地</h4>
+                                            <p>鄢陵梅花</p>
+                                            <p>超山梅花</p>
+                                            <p>灵峰梅花</p>
+                                            <p>邓尉梅花</p>
+                                            <p>梅园梅花</p>
+                                            <p>梅花山梅花</p>
+                                            <p>淀山梅花</p>
+                                            <p>磨山梅花</p>
+                                            <p>罗岗梅花</p>
+                                            <p>梅岭梅花</p>
+                                        </div>
+
+                                        <div class="col-md-4 mb-1">
+                                            <i class="fas fa-camera-retro"></i>
+                                            <h4 class="my-4">咏梅画梅</h4>
+                                            <p>梅，「独天下而春」，作为传春报喜、吉庆的象征，从古至今一直被中国人视为吉祥之物。</p>
+                                            <p>「梅具四德，初生为元，是开始之本；开花为亨，意味着通达顺利；结子为利，象征祥和有益；成熟为贞，代表坚定贞洁。」此为梅之「元亨利贞」四德。</p>
+                                            <p>梅开五瓣，象征五福，即快乐、幸福、长寿、顺利与和平。</p>
+                                        </div>
+
+
+                                    </div>
+
+                                </div>
+
+                            </section>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </main>
+    <!-- /主体布局 -->
+
+    <!-- Footer -->
+    <footer class="page-footer font-small footer-color pt-4 mt-4">
+
+        <!-- Footer Links -->
+        <div class="container-fluid text-center text-md-left">
+
+            <!-- Grid row -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-6 mt-md-0 mt-3">
+
+                    <!-- Content -->
+                    <h5 class="text-uppercase">说一说</h5>
+                    <p>希望本站内容对您产生帮助</p>
+                    <p>欢迎各位对本站内容进行修正和补充</p>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none pb-3">
+
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3">
+
+                    <!-- Links -->
+                    <h5 class="text-uppercase">链接</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="./MH.html">梅花</a>
+                        </li>
+                        <li>
+                            <a href="./LH.html">兰花</a>
+                        </li>
+                        <li>
+                            <a href="./ZZ.html">竹子</a>
+                        </li>
+                        <li>
+                            <a href="./JH.html">菊花</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3">
+
+                    <!-- Links -->
+                    <h5 class="text-uppercase">链接</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="./index.html">首页</a>
+                        </li>
+                        <li>
+                            <a href="./《Web应用基础》课程结业报告.html">总结报告</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2021 Copyright:
+            <a href="#">重庆交通大学信息科学与工程学院 计科2019级</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- /底部 -->
+    <!-- 结束项目 -->
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Your custom scripts (optional) -->
+    <script type="text/javascript"></script>
+</body>
+
+</html>
